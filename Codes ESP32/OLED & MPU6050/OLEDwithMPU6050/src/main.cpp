@@ -1,6 +1,8 @@
-#include <Arduino.h>
-#include <Adafruit_MPU6050.h>
+#include <Arduino.h>            //exemple intéressant : https://www.youtube.com/watch?v=c3Jy_5SKYxU
+#include <Wire.h>
+#include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
+#include <Adafruit_MPU6050.h>
 #include <Adafruit_Sensor.h>
 
 Adafruit_MPU6050 mpu;

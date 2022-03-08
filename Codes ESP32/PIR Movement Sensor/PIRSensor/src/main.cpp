@@ -1,5 +1,5 @@
 #include <Arduino.h>
-int PIRSensorPin  = 2;
+int PIRSensorPin  = 13;
 bool PIRSensorValue  = false;
 
 void setup() {
