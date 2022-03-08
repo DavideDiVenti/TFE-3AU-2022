@@ -22,11 +22,16 @@ Blabla
   <img align="center" width="80%" src="https://github.com/DavideDiVenti/TFE-3AU-2022/blob/master/Images/Industry_4.0_Proto_Board_V1.0%20(PCB%203D)%20v24.png?raw=true" />
 </p>
 
-La **Carte de Prototypage Industrie 4.0** se compose de :
-| Modules    | Subtilités | Réferences    |
-| ------|-----|-----|
-| Un microphone/capteur de son  | Détection de bruit par entrée analogique | VMA309 |
-| Un capteur de mouvement PIR | Détection d'un mouvement d'un corps chaud | HC-SR501 |
-| Un écran OLED 64*128 | Adresse I²C : 0x3C | SSD1306 |
-| Un accéléromètre et/ou gyroscope| Accès aux données d'accéléromètres uniquement | MPU6050|
+### Modules :
+La **Carte de Prototypage Industrie 4.0** se compose de plusieurs modules. Il y en a des pré-soudés mais aussi à brancher manuellement.
+| Modules    | Subtilités | Pré-soudés | Réferences    |
+| ------|-----|-----|-----|
+| Un microphone/capteur de son  | Détection de bruit par entrée analogique | non | VMA309 |
+| Un capteur de mouvement PIR | Détection d'un mouvement d'un corps chaud | non | HC-SR501 |
+| Un écran OLED 64*128 | Adresse I²C : 0x3C | non | SSD1306 |
+| Un accéléromètre et/ou gyroscope| Accès aux données d'accéléromètres uniquement | non | MPU6050|
+| Deux LEDs| Pullup | oui | / |
 | ETC... | / | / |
+
+### Les types de communications :
+Blabla
