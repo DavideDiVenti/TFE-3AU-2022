@@ -23,7 +23,7 @@ Blabla
 </p>
 
 ### Modules :
-La **Carte de Prototypage Industrie 4.0** se compose de plusieurs modules. Il y en a des pré-soudés mais aussi à brancher manuellement.
+La **Carte de Prototypage Industrie 4.0** se compose de plusieurs modules. Il y en a des pré-soudés mais aussi à brancher manuellement sur des headers femelles.
 | Modules    | Subtilités | Pré-soudés | Réferences    |
 | ------|-----|-----|-----|
 | Un microphone/capteur de son  | Détection de bruit par entrée analogique | non | VMA309 |
@@ -34,4 +34,7 @@ La **Carte de Prototypage Industrie 4.0** se compose de plusieurs modules. Il y 
 | ETC... | / | / |
 
 ### Les types de communications :
+Blabla
+
+### Pinout :
 Blabla
