@@ -1,7 +1,7 @@
 # TFE 3AU 2022
-Un dépôt reprenant l'ensemble de mon travail de fin d'étude
+Ce dépôt reprend l'ensemble de mon Travail de Fin d'Etude. Dans le cadre du cours d'Industrie 4.0, avec la **Carte de Prototypage Industrie 4.0** des 3AU, il sera possible d'exploiter 6 différents types de communications : Wi-Fi, Bluetooth, Zigbee, LoRa, SigFox & IR.
 
-## Répertoire *Codes ESP32*
+## Le répertoire *Codes ESP32*
 Dans ce répertoire se trouve les codes exemples de chaque périphérique de l'ESP32 correspondant à la **Carte de Prototypage Industrie 4.0**. Aucune modification supplémentaire ne sera nécessaire si ce n'est que dans le but de tester le bon fonctionnement du module concerné.
 
 ### Contenu :
@@ -10,12 +10,8 @@ Le répertoire *Codes ESP32* contient :
 * Des codes exemples exploitant plusieurs modules à la fois
 * Autre...
 
-## Répertoire *Portfolio*
-Dans ce répertoire se trouve les fichiers du portfolio.
+### Prise en main :
+Chaque fichier reprenant un exemple de code est minutieusement commenté afin de pouvoir s'y repérer sans trop de difficulté. Dans certain cas, des liens vers des exemples de codes sources fiables en lignes sont introduit. 
 
-### Contenu :
-Le répertoire *Portfolio* contient :
-* Des fichiers HTML, CSS & JS
-* Des images
-* Autre...
-
+### Présentation de la carte :
+Blabla
