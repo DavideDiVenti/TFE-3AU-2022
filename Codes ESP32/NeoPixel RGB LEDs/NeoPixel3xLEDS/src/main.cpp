@@ -1,29 +1,22 @@
 #include <Arduino.h>
 #include <Adafruit_NeoPixel.h>
-
-#define pixelPin 15
-#define pixelNumber 3
-
-Adafruit_NeoPixel pixels(pixelNumber, pixelPin, NEO_GRB + NEO_KHZ800);
-
+int DataIn = 15;
+int pixel = 3;
+int i;
+Adafruit_NeoPixel pixels(pixel, DataIn, NEO_GRB + NEO_KHZ800);
+ 
 void setup() {
-  pixels.begin(); // INITIALIZE NeoPixel strip object (REQUIRED)
+  pixels.begin();
   pixels.clear();
-  pixels.setBrightness(200);
-
 }
-
+ 
 void loop() {
-  for (int pixel = 0; pixel <= 2; pixel++){
-    pixels.setPixelColor(pixel, 255, 0, 0);
+  
+    switch (i){
+    case 0 : pixels.setPixelColor(0, pixels.Color(0, 10, 0)); pixels.setPixelColor(1, pixels.Color(2, 2, 2)); pixels.setPixelColor(2, pixels.Color(2, 2, 2)); i++; break;
+    case 1 : pixels.setPixelColor(1, pixels.Color(10, 10, 0)); pixels.setPixelColor(2, pixels.Color(2, 2, 2)); pixels.setPixelColor(0, pixels.Color(2, 2, 2)); i++; break;
+    case 2 : pixels.setPixelColor(2, pixels.Color(10, 0, 0)); pixels.setPixelColor(0, pixels.Color(2, 2, 2)); pixels.setPixelColor(1, pixels.Color(2, 2, 2)); i=0; break;
+    }  
     pixels.show();
-    delay(250);
-  }
-  delay(250);
-  for (int pixel = 2; pixel >= 0; pixel--){
-    pixels.setPixelColor(pixel, 0, 0, 0);
-    pixels.show();
-    delay(250);
-  }
-  delay(250);
+  delay(200);
 }
