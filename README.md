@@ -39,7 +39,7 @@ Blabla
 ### Pinout :
 Blabla
 | GPIO | Périphériques | Notes | 
-| ------|-----|-----|
+|:------:|-----|-----|
 | 0 | LORA-NSS | SPI Chip Select |
 | 1 | NC |  | 
 | 2 | LORA-D0 |  |
