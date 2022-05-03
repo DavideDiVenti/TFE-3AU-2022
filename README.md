@@ -25,7 +25,7 @@ Blabla
 ### Modules :
 La **Carte de Prototypage Industrie 4.0** se compose de plusieurs modules. Il y en a des pré-soudés mais aussi à brancher manuellement sur des headers femelles.
 | Modules    | Subtilités | Pré-soudés | Réferences    |
-| ------|-----|-----|-----|
+| ------|:-----:|:-----:|:-----:|
 | Un microphone/capteur de son  | Détection de bruit par entrée analogique | non | VMA309 |
 | Un capteur de mouvement PIR | Détection d'un mouvement d'un corps chaud | non | HC-SR501 |
 | Un écran OLED 64*128 | Adresse I²C : 0x3C | non | SSD1306 |
