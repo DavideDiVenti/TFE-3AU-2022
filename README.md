@@ -19,7 +19,7 @@ Afin de permettre une mise en service plutot aisée dans ce nouveau matériel p�
 ### Présentation de la carte :
 Blabla
 <p align="left">
-  <img align="center" width="80%" src="https://github.com/DavideDiVenti/TFE-3AU-2022/blob/master/Images/Industry_4.0_Proto_Board_V1.0%20(PCB%203D)%20v24.png?raw=true" />
+  <img align="center" width="80%" src="https://github.com/DavideDiVenti/TFE-3AU-2022/blob/master/Images/ndustry_4.0_Proto_Board_V2.0 (PCB 3D).png.PNG?raw=true" />
 </p>
 
 ### Modules :
