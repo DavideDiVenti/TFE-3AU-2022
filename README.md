@@ -38,59 +38,7 @@ Blabla
 
 ### Pinout :
 Blabla
-<div style="float: left; width: 50%;">
-<ul>
-<li>Left Item 1</li>
-<li>Left Item 2</li>
-<li>Left Item 3</li>
-<li>Left Item 4</li>
-<li>Left Item 5</li>
-</ul>
-</div>
-<div style="float: right; width: 50%;">
-<ul>
-<li>Right Item 1</li>
-<li>Right Item 2</li>
-<li>Right Item 3</li>
-<li>Right Item 4</li>
-<li>Right Item 5</li>
-</ul>
-</div>
 
-<div style="float: left; width: 50%;">
-
-    
-| GPIO    |
-|:------: |
-| 0       |
-| 1       |
-| 2       |
-| 3       |
-| 4       |
-| 5       |
-| 12      |
-| 13      |
-| 14      |
-| 15      |
-| 16      |
-| 17      |
-| 18      |
-| 19      |
-| 21      |
-| 22      |
-| 23      |
-| 25      |
-| 26      |
-| 27      |
-| 32      |
-| 33      |
-| 34      |
-| 35      |
-| 36      |
-| 39      |
-</div>
-
-<div style="float: right; width: 50%;">
 <div class="table-wrapper" markdown="block">
 
 | GPIO   | Périphériques   | Notes                                                   |   |
@@ -121,7 +69,6 @@ Blabla
 | 35     | RV              | Potentiometter                                          |   |
 | 36     | BP1             | HIGH when pushed                                        |   |
 | 39     | Elegoo Sensor-D0|                                                         |   |
-</div>
 </div>
 
 
