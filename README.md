@@ -1,3 +1,8 @@
+<style>
+red { color: red }
+yellow { color: yellow }
+</style>
+
 # TFE 3AU 2022
 Ce dépôt reprend l'ensemble de mon Travail de Fin d'Etude. Dans le cadre du cours d'Industrie 4.0, avec la **Carte de Prototypage Industrie 4.0** des 3AU, il sera possible d'exploiter 6 différents types de communications : Wi-Fi, Bluetooth, Zigbee, LoRa, SigFox & IR.
 
@@ -42,7 +47,7 @@ Blabla
 |:------:|-----|-----|
 | 0 | **LORA-NSS** | SPI Chip Select |
 | 1 | NC |  | 
-| 2 | LORA-D0 |  |
+| 2 | <red> LORA-D0 </red> |  |
 | 3 | NC |  |
 | 4 | IO4 Jumper | Jumper JP11: Choice of CAN-RX or LED1 |
 | 5 | IO5 Jumper | Jumper JP12: Choice of CAN-TX or BP2 |
