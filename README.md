@@ -41,7 +41,7 @@ Blabla
   
     <div class="table-wrapper" markdown="block">
 
-    | GPIO    | Périphériques   | Notes                                                   |  aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa|
+    | GPIO    | Périphériques   | Notes                                                   |   |
     |:------: |-----------------|---------------------------------------------------------|---|
     | 0       | LORA-NSS        | SPI Chip Select                                         |   |
     | 1       | NC              |                                                         |   |
