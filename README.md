@@ -1,7 +1,3 @@
-.table-wrapper {
-  overflow-x: scroll;
-}
-
 # TFE 3AU 2022
 Ce dépôt reprend l'ensemble de mon Travail de Fin d'Etude. Dans le cadre du cours d'Industrie 4.0, avec la **Carte de Prototypage Industrie 4.0** des 3AU, il sera possible d'exploiter 6 différents types de communications : Wi-Fi, Bluetooth, Zigbee, LoRa, SigFox & IR.
 
