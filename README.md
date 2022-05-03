@@ -38,8 +38,7 @@ Blabla
 
 ### Pinout :
 Blabla
-  
-    <div class="table-wrapper" markdown="block">
+
 
     | GPIO    | Périphériques   | Notes                                                   |   |
     |:------: |-----------------|---------------------------------------------------------|---|
@@ -70,7 +69,7 @@ Blabla
     | 36      | BP1             | HIGH when pushed                                        |   |
     | 39      | Elegoo Sensor-D0|                                                         |   |
 
-    </div>
+
 
 
 
