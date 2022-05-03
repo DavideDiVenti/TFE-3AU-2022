@@ -38,8 +38,7 @@ Blabla
 
 ### Pinout :
 Blabla
-<div class="row">
-  <div class="column">
+
     | GPIO    |
     |:------: |
     | 0       |
@@ -70,8 +69,6 @@ Blabla
     | 39      |
 
   
-  </div>
-  <div class="column">
     <div class="table-wrapper" markdown="block">
 
     | GPIO    | Périphériques   | Notes                                                   |  aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa |
@@ -104,8 +101,7 @@ Blabla
     | 39      | Elegoo Sensor-D0|                                                         |   |
 
     </div>
-  </div>
-</div>
+
 
 
 
