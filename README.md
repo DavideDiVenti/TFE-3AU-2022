@@ -38,11 +38,18 @@ Blabla
 
 ### Pinout :
 Blabla
+
+<div style="height:100px;width:400px;overflow:scroll;border:solid 2px orange;overflow-y:hidden;overflow-x:scroll;">
+  <p style="width:450px;">
+    Scroll box automatic set in scroll in vertical scrollbar....................<br />
+    Scroll box automatic set in scroll in vertical scrollbar....................</p>
+</div>
+
 | GPIO | Périphériques | Notes | 
 |:------:|-----|-----|
 | 0 | LORA-NSS | SPI Chip Select |
 | 1 | NC |  | 
-| 2 | <span style="color:yellow"> LORA-DIO0</span> |  |
+| 2 | LORA-DIO0 |  |
 | 3 | NC |  |
 | 4 | IO4 Jumper | Jumper JP11: Choice of CAN-RX or LED1 |
 | 5 | IO5 Jumper | Jumper JP12: Choice of CAN-TX or BP2 |
