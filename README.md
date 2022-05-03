@@ -39,8 +39,8 @@ Blabla
 ### Pinout :
 Blabla
 
-<div class="row">
-  <div class="column">
+<div style="float: left; width: 50%;">
+
     
 | GPIO    |
 |:------: |
@@ -70,11 +70,9 @@ Blabla
 | 35      |
 | 36      |
 | 39      |
+</div>
 
-
-  </div>
-  
-  <div class="column">
+<div style="float: right; width: 50%;">
 <div class="table-wrapper" markdown="block">
 
 | GPIO    | Périphériques   | Notes                                                   |   |
@@ -105,9 +103,7 @@ Blabla
 | 35      | RV              | Potentiometter                                          |   |
 | 36      | BP1             | HIGH when pushed                                        |   |
 | 39      | Elegoo Sensor-D0|                                                         |   |
-
-</div>  
-  </div>
+</div>
 </div>
 
 
