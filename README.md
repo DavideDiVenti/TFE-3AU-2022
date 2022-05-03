@@ -38,37 +38,74 @@ Blabla
 
 ### Pinout :
 Blabla
+<div class="row">
+  <div class="column">
+    | GPIO    |
+    |:------: |
+    | 0       |
+    | 1       |
+    | 2       |
+    | 3       |
+    | 4       |
+    | 5       |
+    | 12      |
+    | 13      |
+    | 14      |
+    | 15      |
+    | 16      |
+    | 17      |
+    | 18      |
+    | 19      |
+    | 21      |
+    | 22      |
+    | 23      |
+    | 25      |
+    | 26      |
+    | 27      |
+    | 32      |
+    | 33      |
+    | 34      |
+    | 35      |
+    | 36      |
+    | 39      |
 
-<div class="table-wrapper" markdown="block">
+  
+  </div>
+  <div class="column">
+    <div class="table-wrapper" markdown="block">
 
-| GPIO    | Périphériques   | Notes                                                   | aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa|
-|:------: |-----------------|---------------------------------------------------------|-----------------------------------------------------------|
-| 0       | LORA-NSS        | SPI Chip Select                                         |aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa|
-| 1       | NC              |                                                         | 
-| 2       | LORA-DIO0       |                                                         |
-| 3       | NC              |                                                         |
-| 4       | IO4 Jumper      | Jumper JP11: Choice of CAN-RX or LED1                   |
-| 5       | IO5 Jumper      | Jumper JP12: Choice of CAN-TX or BP2                    |
-| 12      | IO6 Jumper      | Jumper JP14: Choice of RFID-CS (SPI Chip Select) or LED2|
-| 13      | PIR             |                                                         |
-| 14      | LORA-RST        |                                                         |
-| 15      | IO15 Jumper     | Jumper JP15: Choice of RFID-RST or Noepixel             |
-| 16      | XBEE-TX         |                                                         |
-| 17      | XBEE-RX         |                                                         |
-| 18      | RFID+LORA-SCK   | SPI Clock                                               |
-| 19      | RFID+LORA-MISO  | SPI MISO                                                |
-| 21      | SDA (I²C)       |                                                         |
-| 22      | SCL (I²C)       |                                                         |
-| 23      | RFID+LORA-MOSI  | SPI MOSI                                                |
-| 25      | SigFox-TX       |                                                         |
-| 26      | SigFox-RX       |                                                         |
-| 27      | DHT22           |                                                         |
-| 32      | IR-Sender       |                                                         |
-| 33      | IR-Receiver     |                                                         |
-| 34      | Elegoo Sensor-A0|                                                         |
-| 35      | RV              | Potentiometter                                          |
-| 36      | BP1             | HIGH when pushed                                        |
-| 39      | Elegoo Sensor-D0|                                                         |
+    | GPIO    | Périphériques   | Notes                                                   |  aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa |
+    |:------: |-----------------|---------------------------------------------------------|---|
+    | 0       | LORA-NSS        | SPI Chip Select                                         |   |
+    | 1       | NC              |                                                         |   |
+    | 2       | LORA-DIO0       |                                                         |   |
+    | 3       | NC              |                                                         |   |
+    | 4       | IO4 Jumper      | Jumper JP11: Choice of CAN-RX or LED1                   |   |
+    | 5       | IO5 Jumper      | Jumper JP12: Choice of CAN-TX or BP2                    |   |
+    | 12      | IO6 Jumper      | Jumper JP14: Choice of RFID-CS (SPI Chip Select) or LED2|   |
+    | 13      | PIR             |                                                         |   |
+    | 14      | LORA-RST        |                                                         |   |
+    | 15      | IO15 Jumper     | Jumper JP15: Choice of RFID-RST or Noepixel             |   |
+    | 16      | XBEE-TX         |                                                         |   |
+    | 17      | XBEE-RX         |                                                         |   |
+    | 18      | RFID+LORA-SCK   | SPI Clock                                               |   |
+    | 19      | RFID+LORA-MISO  | SPI MISO                                                |   |
+    | 21      | SDA (I²C)       |                                                         |   |
+    | 22      | SCL (I²C)       |                                                         |   |
+    | 23      | RFID+LORA-MOSI  | SPI MOSI                                                |   |
+    | 25      | SigFox-TX       |                                                         |   |
+    | 26      | SigFox-RX       |                                                         |   |
+    | 27      | DHT22           |                                                         |   |
+    | 32      | IR-Sender       |                                                         |   |
+    | 33      | IR-Receiver     |                                                         |   |
+    | 34      | Elegoo Sensor-A0|                                                         |   |
+    | 35      | RV              | Potentiometter                                          |   |
+    | 36      | BP1             | HIGH when pushed                                        |   |
+    | 39      | Elegoo Sensor-D0|                                                         |   |
 
+    </div>
+  </div>
 </div>
+
+
 
