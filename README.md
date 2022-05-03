@@ -25,7 +25,7 @@ Blabla
 ### Modules :
 La **Carte de Prototypage Industrie 4.0** se compose de plusieurs modules. Il y en a des pré-soudés mais aussi à brancher manuellement sur des headers femelles.
 | Modules    | Subtilités | Pré-soudés | Réferences    |
-| ------|:-----:|:-----:|:-----:|
+| ------|-----|-----|-----|
 | Un microphone/capteur de son  | Détection de bruit par entrée analogique | non | VMA309 |
 | Un capteur de mouvement PIR | Détection d'un mouvement d'un corps chaud | non | HC-SR501 |
 | Un écran OLED 64*128 | Adresse I²C : 0x3C | non | SSD1306 |
@@ -38,3 +38,12 @@ Blabla
 
 ### Pinout :
 Blabla
+| GPIO | Périphériques | Notes | 
+| ------|-----|-----|
+| 0 | LORA-NSS | SPI Chip Select |
+| 1 | NC |  | 
+| 2 | LORA-D0 |  |
+| 3 | NC |  |
+| 4 | IO4 Jumper | Jumper JP11: Choice of CAN-RX or LED1 |
+| 5 | IO5 Jumper | Jumper JP12: Choice of CAN-TX or BP2 |
+| 6 | IO6 Jumper | Jumper JP14: Choice of RFID-CS (SPI Chip Select) or LED2 |
