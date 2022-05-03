@@ -1,3 +1,7 @@
+.table-wrapper {
+  overflow-x: scroll;
+}
+
 # TFE 3AU 2022
 Ce dépôt reprend l'ensemble de mon Travail de Fin d'Etude. Dans le cadre du cours d'Industrie 4.0, avec la **Carte de Prototypage Industrie 4.0** des 3AU, il sera possible d'exploiter 6 différents types de communications : Wi-Fi, Bluetooth, Zigbee, LoRa, SigFox & IR.
 
@@ -39,10 +43,13 @@ Blabla
 ### Pinout :
 Blabla
 
-<div style="height:100px;width:400px;overflow:scroll;border:solid 2px orange;overflow-y:hidden;overflow-x:scroll;">
-  <p style="width:450px;">
-    Scroll box automatic set in scroll in vertical scrollbar....................<br />
-    Scroll box automatic set in scroll in vertical scrollbar....................</p>
+<div class="table-wrapper" markdown="block">
+
+|      | col_name1 | col_name2 | col_name3 | col_name4 | col_name5 | col_name6 | col_name7 | col_name8 | col_name9 | col_name0 |
+|------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
+| row1 |           |           |           |           |           |           |           |           |           |           |
+| row2 |           |           |           |           |           |           |           |           |           |           |
+
 </div>
 
 | GPIO | Périphériques | Notes | 
