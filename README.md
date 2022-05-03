@@ -47,3 +47,11 @@ Blabla
 | 4 | IO4 Jumper | Jumper JP11: Choice of CAN-RX or LED1 |
 | 5 | IO5 Jumper | Jumper JP12: Choice of CAN-TX or BP2 |
 | 6 | IO6 Jumper | Jumper JP14: Choice of RFID-CS (SPI Chip Select) or LED2 |
+| 12 |  |  |
+| 13 |  |  |
+| 14 |  |  |
+| 15 |  |  |
+| 16 |  |  |
+| 17 |  |  |
+| 18 |  |  |
+| 19 |  |  |
