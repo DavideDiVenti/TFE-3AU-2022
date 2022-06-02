@@ -1,5 +1,5 @@
 # Le répertoire [*Codes ESP32*](https://github.com/DavideDiVenti/TFE-3AU-2022/tree/master/Codes%20ESP32)
-Dans ce répertoire se trouve tous les codes exemples des différentes **Cartes de Prototypage Industrie 4.0**. Des modifications supplémentaires dans le code pourraient s'avérer nécessaire dans le cas où le choix du brochage des différents composants d'un PCB ne corresponderait pas.
+Dans ce répertoire se trouvent tous les codes exemples des différentes **Cartes de Prototypage Industrie 4.0**. Des modifications supplémentaires dans le code pourraient s'avérer nécessaire dans le cas où le choix du brochage des différents composants d'un PCB ne corresponderait pas.
 
 ### Contenu :
 Le répertoire [Codes ESP32](https://github.com/DavideDiVenti/TFE-3AU-2022/tree/master/Codes%20ESP32) contient plusieurs éléments :
