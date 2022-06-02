@@ -1,12 +1,12 @@
 # Le répertoire [*Documents*](https://github.com/DavideDiVenti/TFE-3AU-2022/tree/master/Documents)
-Plusieurs divers documents sont situés dans ce répertoire. Des informations supplémentaires, des carractéristiques propre à chaque **Cartes de Prototypage Industrie 4.0** ainsi que les schémas électroniques sont présents.
+Plusieurs divers documents sont situés dans ce répertoire. Des informations supplémentaires, des carractéristiques propre à chaque **Cartes de Prototypage Industrie 4.0** ainsi que les schémas électroniques sont présents. Une [présentation](https://github.com/DavideDiVenti/TFE-3AU-2022/tree/master/Documents#pr%C3%A9sentation-des-cartes-de-prototypage-industrie-40) des **Cartes de Prototypage Industrie 4.0** est également présente dans cette section.
 
 ### Contenu :
 Le répertoire [Documents](https://github.com/DavideDiVenti/TFE-3AU-2022/tree/master/Documents) est composé de plusieurs éléments :
 * Un dossier [Devices Datasheets](https://github.com/DavideDiVenti/TFE-3AU-2022/tree/master/Documents/Devices%20Datasheets) incluant toutes les différentes fiches techniques de tous les périphériques des **Cartes de Prototypage Industrie 4.0**
 * Un dossier [Electrical Diagrams](https://github.com/DavideDiVenti/TFE-3AU-2022/tree/master/Documents/Electrical%20Diagrams) contenant les 4 différents schémas électroniques des quatres différentes **Cartes de Prototypage Industrie 4.0**
 * Un dossier [ESP32 Pinout](https://github.com/DavideDiVenti/TFE-3AU-2022/tree/master/Documents/ESP32%20Pinout) comportant tous les brochages de chaque PCB en plus de quelques restrictions propre à chaque pin.
-* Un fichier [TFE-DI VENTI-DAVIDE](https://github.com/DavideDiVenti/TFE-3AU-2022/blob/master/Documents/TFE-DI%20VENTI-DAVIDE.pdf) correspondant au rapport du travail de fin d'études pour quelques autres éventuelles informations précises.
+* Un fichier [TFE-DI VENTI-DAVIDE](https://github.com/DavideDiVenti/TFE-3AU-2022/blob/master/Documents/TFE-DI%20VENTI-DAVIDE.pdf) correspondant au rapport du travail de fin d'études pour quelques autres éventuelles informations précises. 
 
 # Présentation des **Cartes de Prototypage Industrie 4.0**
 
