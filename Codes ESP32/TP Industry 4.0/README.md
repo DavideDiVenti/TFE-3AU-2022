@@ -1,37 +1,25 @@
-# TFE 3AU 2022
-Ce dépôt reprend l'ensemble de mon Travail de Fin d'Etudes. Dans le cadre du cours d'Industrie 4.0, et/ou éventuellement d'autres cours en lien avec le contenu, avec les **Cartes de Prototypage Industrie 4.0** des 3AU, il sera possible d'exploiter plusieurs différents types de communications : Wi-Fi, Bluetooth, Zigbee, LoRa, SigFox CAN, IR, I²C & SPI.
+# TP Industry 4.0
+Ce Travail Pratique rassemble plusieurs notions de l'IoT & de l'Industrie 4.0. En plus de la programmation de chaque **Carte de Prototypage Industrie 4.0**, une machine virtuelle de type Docker sera utilisée. Cette machine peut etre embarquée dans un ordinateur ou un Raspberry Pi. Dans l'exemple présenté dans ce fichier, un Raspberry Pi a été utilisé, mais le principe est le même qu'avec un PC.
 
-## Introduction
-Afin de permettre une mise en service plutot aisée dans ce nouveau matériel pédagogique, une mise à disposition de tous les documents & codes des **Cartes de Prototypage Industrie 4.0** aura lieu dans ce dépot GitHub.
+## Consigne
+L’idée de ce TP serait d’assembler 3 des 4 différentes **Cartes de Prototypage Industrie 4.0** et de les faire communiquer entre eux, mais pas n’importe comment. En premier temps, le PCB multi-protocole et le Raspberry Pi 4 doivent se connecter en tant que client Wi-Fi à partir d’un point d’accès. Ces deux derniers communiqueront entre eux sous la couche MQTT créée par le Raspberry Pi 4. En deuxième temps, le PCB orienté Zigbee communique en radio avec le PCB multi-protocole et le PCB orienté LoRa communique à son tour également en radio avec le PCB multi-protocole indépendamment.
 
-Pour simuler de façon didactique le principe de l’Industrie 4.0 et de l’IoT, plusieurs cartes électroniques ont été conçues.
-Ces cartes embarquent toutes un microcontrôleur commun, l’ESP32. Il centralise plusieurs périphériques, notamment des capteurs/actionneurs, des émetteurs/récepteurs radio, etc.
+Le Raspberry Pi 4 simulera un bot depuis le cloud Telegram. Sur base des interactions effectuées dans le tchat entre l’utilisateur et le bot, le Raspberry Pi 4 demandera au PCB multi-protocole en MQTT d’agir en conséquence.
 
-Comme en entreprise, la communication entre machines (M2M), l’accès aux données depuis des serveurs, et les interfaces utilisateurs s’effectuent par le biais de plusieurs outils & protocoles.
+Par exemple, si l’utilisateur demande d’allumer la LED 2 du PCB orienté LoRa, alors le Raspberry Pi 4 envoie la requête correspondante en MQTT aux PCB multi-protocole pour qu’à son tour ce dernier envoie la même requête en radio sous le protocole LoRa vers le PCB orienté LoRa. Il allumera sa LED et enverra un accusé de réception (en renvoyant une requête en sens inverse) de sorte que l’utilisateur sache que sa demande ait bien été exécutée.
 
-Parmi ces outils, se trouvent initialement des programmes IDE, des services API, des Clouds, des passerelles, des bases de données, des fournisseurs de réseaux IoT (SigFox, LoRaWAN, …), etc.
+Toutes les requêtes ainsi que leurs réponses sont enregistrées dans une base de données (Fire Base). Leur visualisation peut se faire depuis l’interaction dans le tchat entre l’utilisateur et le bot.
 
-Du coté des protocoles de communication, les cartes conçues dans ce TFE sont compatibles avec Wi-Fi, Bluetooth, Zigbee, LoRa, SigFox, CAN, IR, I²C & SPI.
-Ainsi, en assemblant toute une étude de simulation d’un processus IoT à partir de ces outils & protocoles, il a été possible de réaliser un système assez proche d’une application typique de l’Industrie 4.0.
+## Schéma représentatif au TP Industry 4.0
 
-En somme, l’émulation de ce processus sous les cartes électroniques de ce TP aborde une étendue immense de plusieurs aspects IoT, notamment le principe d’émetteur/récepteur radio, le courtier MQTT, les requêtes HTTP, les formats JSON, etc.
 
-## Le répertoire [*Codes ESP32*](https://github.com/DavideDiVenti/TFE-3AU-2022/tree/master/Codes%20ESP32)
+## Les fichiers présents dans ce dépôt
 Dans ce répertoire se trouve tous les codes exemples des différentes **Cartes de Prototypage Industrie 4.0**. Des modifications supplémentaires dans le code pourraient s'avérer nécessaire dans le cas où le choix du brochage des différents composants d'un PCB ne corresponderait pas.
 
 ### Contenu :
-Le répertoire [Codes ESP32](https://github.com/DavideDiVenti/TFE-3AU-2022/tree/master/Codes%20ESP32) contient plusieurs éléments :
-* Un dossier [Actuators & Sensors Devices](https://github.com/DavideDiVenti/TFE-3AU-2022/tree/master/Codes%20ESP32/Actuators%20%26%20Sensors%20Devices) incluant des codes exemples propre à chaque périphérique (excepté ceux de communications)
-* Un dossier [Communicarions Modules](https://github.com/DavideDiVenti/TFE-3AU-2022/tree/master/Codes%20ESP32/Communications%20Modules) comportant des codes exemples propre à chaque modules de communications (LoRa, ZigBee, SigFox, CAN)
-* Un dossier [TP Industry 4.0](https://github.com/DavideDiVenti/TFE-3AU-2022/tree/master/Codes%20ESP32/TP%20Industry%204.0) contenant les différents codes d'un exemple de processus Industrie 4.0 avec les différentes **Cartes de Prototypage Industrie 4.0**
-
-## Le répertoire [*Documents*](https://github.com/DavideDiVenti/TFE-3AU-2022/tree/master/Documents)
-Plusieurs divers documents sont situés dans ce répertoire. Des informations supplémentaires, des carractéristiques propre à chaque **Cartes de Prototypage Industrie 4.0** ainsi que les schémas électroniques sont présents.
-
-### Contenu :
-Le répertoire [Documents](https://github.com/DavideDiVenti/TFE-3AU-2022/tree/master/Documents) est composé de plusieurs éléments :
-* Un dossier [Devices Datasheets](https://github.com/DavideDiVenti/TFE-3AU-2022/tree/master/Documents/Devices%20Datasheets) incluant toutes les différentes fiches techniques de tous les périphériques des **Cartes de Prototypage Industrie 4.0**
-* Un dossier [Electrical Diagrams](https://github.com/DavideDiVenti/TFE-3AU-2022/tree/master/Documents/Electrical%20Diagrams) contenant les 4 différents schémas électroniques des quatres différentes **Cartes de Prototypage Industrie 4.0**
-* Un dossier [ESP32 Pinout](https://github.com/DavideDiVenti/TFE-3AU-2022/tree/master/Documents/ESP32%20Pinout) comportant tous les brochages de chaque PCB en plus de quelques restrictions propre à chaque pin.
-* Un fichier [TFE-DI VENTI-DAVIDE](https://github.com/DavideDiVenti/TFE-3AU-2022/blob/master/Documents/TFE-DI%20VENTI-DAVIDE.pdf) correspondant au rapport du travail de fin d'études pour quelques autres éventuelles informations précises.
+Ce répertoire TP Industry 4.0 se compose de plusieurs éléments :
+* Un fichier [MonoProtocol_LoRa_Node]
+* Un fichier [MonoProtocol_Zigbee_Node]
+* Un fichier [MultiProtocol_Node]
+* Un fichier [NodeRed flows]
 
