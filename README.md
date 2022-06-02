@@ -18,8 +18,8 @@ Plusieurs divers documents sont situés dans ce répertoire. Des informations su
 
 ### Contenu :
 Le répertoire [Documents] est composé de plusieurs éléments :
-* Un dossier [Devices Datasheets] incluant toutes les différentes fiches techniques de tous les périphériques des **Cartes de Prototypage Industrie 4.0**
-* Un dossier [Electrical Diagrams] contenant les 4 différents schémas électroniques des quatres différentes **Cartes de Prototypage Industrie 4.0**
-* Un dossier [ESP32 Pinout] comportant tous les brochages de chaque PCB les en plus de quelques restrictions propre à chaque pin.
-* Un fichier [TFE-DI VENTI-DAVIDE] correspondant au rapport du travail de fin d'études pour quelques éventuelles informations précises.
+* Un dossier [Devices Datasheets](https://github.com/DavideDiVenti/TFE-3AU-2022/tree/master/Documents/Devices%20Datasheets) incluant toutes les différentes fiches techniques de tous les périphériques des **Cartes de Prototypage Industrie 4.0**
+* Un dossier [Electrical Diagrams](https://github.com/DavideDiVenti/TFE-3AU-2022/tree/master/Documents/ESP32%20Pinout) contenant les 4 différents schémas électroniques des quatres différentes **Cartes de Prototypage Industrie 4.0**
+* Un dossier [ESP32 Pinout](https://github.com/DavideDiVenti/TFE-3AU-2022/tree/master/Documents/Electrical%20Diagrams) comportant tous les brochages de chaque PCB les en plus de quelques restrictions propre à chaque pin.
+* Un fichier [TFE-DI VENTI-DAVIDE](https://github.com/DavideDiVenti/TFE-3AU-2022/blob/master/Documents/TFE-DI%20VENTI-DAVIDE.pdf) correspondant au rapport du travail de fin d'études pour quelques éventuelles informations précises.
 
