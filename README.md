@@ -26,7 +26,7 @@ Le répertoire [Codes ESP32](https://github.com/DavideDiVenti/TFE-3AU-2022/tree/
 * Un dossier [TP Industry 4.0](https://github.com/DavideDiVenti/TFE-3AU-2022/tree/master/Codes%20ESP32/TP%20Industry%204.0) contenant les différents codes d'un exemple de processus Industrie 4.0 avec les différentes **Cartes de Prototypage Industrie 4.0** (une [documentation](https://github.com/DavideDiVenti/TFE-3AU-2022/tree/master/Codes%20ESP32/TP%20Industry%204.0#tp-industry-40) y est présente)
 
 ## Le répertoire [*Documents*](https://github.com/DavideDiVenti/TFE-3AU-2022/tree/master/Documents)
-Plusieurs divers documents sont situés dans ce répertoire. Des informations supplémentaires, des carractéristiques propre à chaque **Cartes de Prototypage Industrie 4.0** ainsi que les schémas électroniques sont présents. Une présentation des [**Cartes de Prototypage Industrie 4.0**](https://github.com/DavideDiVenti/TFE-3AU-2022/tree/master/Documents#pr%C3%A9sentation-des-cartes-de-prototypage-industrie-40) est également présente dans cette section.
+Plusieurs divers documents sont situés dans ce répertoire. Des informations supplémentaires, des carractéristiques propre à chaque **Cartes de Prototypage Industrie 4.0** ainsi que les schémas électroniques sont présents. Une [présentation](https://github.com/DavideDiVenti/TFE-3AU-2022/tree/master/Documents#pr%C3%A9sentation-des-cartes-de-prototypage-industrie-40) des **Cartes de Prototypage Industrie 4.0** est également présente dans cette section.
 
 ### Contenu :
 Le répertoire [Documents](https://github.com/DavideDiVenti/TFE-3AU-2022/tree/master/Documents) est composé de plusieurs éléments :
