@@ -17,7 +17,7 @@ Ainsi, en assemblant toute une étude de simulation d’un processus IoT à part
 En somme, l’émulation de ce processus sous les cartes électroniques de ce TP aborde une étendue immense de plusieurs aspects IoT, notamment le principe d’émetteur/récepteur radio, le courtier MQTT, les requêtes HTTP, les formats JSON, etc.
 
 ## Le répertoire [*Codes ESP32*](https://github.com/DavideDiVenti/TFE-3AU-2022/tree/master/Codes%20ESP32)
-Dans ce répertoire se trouve tous les codes exemples des différentes **Cartes de Prototypage Industrie 4.0**. Des modifications supplémentaires dans le code pourraient s'avérer nécessaire dans le cas où le choix du brochage des différents composants d'un PCB ne corresponderait pas.
+Dans ce répertoire se trouvent tous les codes exemples des différentes **Cartes de Prototypage Industrie 4.0**. Des modifications supplémentaires dans le code pourraient s'avérer nécessaire dans le cas où le choix du brochage des différents composants d'un PCB ne corresponderait pas.
 
 ### Contenu :
 Le répertoire [Codes ESP32](https://github.com/DavideDiVenti/TFE-3AU-2022/tree/master/Codes%20ESP32) contient plusieurs éléments :
