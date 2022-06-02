@@ -1,0 +1,2581 @@
+[
+    {
+        "id": "3f28d583ba724553",
+        "type": "tab",
+        "label": "Telegram Flow",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "f6f2187d.f17ca8",
+        "type": "tab",
+        "label": "Dashboard Flow",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "321ac3d324739851",
+        "type": "telegram bot",
+        "botname": "ISATtelegram_bot",
+        "usernames": "ISATGroup, Davide, Aldo, Matteo",
+        "chatids": "-701587570, 5307972959, 5329300191, 5379739416",
+        "baseapiurl": "",
+        "updatemode": "polling",
+        "pollinterval": "300",
+        "usesocks": false,
+        "sockshost": "",
+        "socksport": "6667",
+        "socksusername": "anonymous",
+        "sockspassword": "",
+        "bothost": "",
+        "botpath": "",
+        "localbotport": "8443",
+        "publicbotport": "8443",
+        "privatekey": "",
+        "certificate": "",
+        "useselfsignedcertificate": false,
+        "sslterminated": false,
+        "verboselogging": false
+    },
+    {
+        "id": "7c83e9c1d1dd1eda",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "192.168.137.211",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "sessionExpiry": ""
+    },
+    {
+        "id": "99fdc0998b2de5a0",
+        "type": "ui_group",
+        "name": "MultiProtocol",
+        "tab": "2d4d06b379cf51da",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "2829baf399b0bc1f",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "581c1335c675c2ed",
+        "type": "ui_group",
+        "name": "MonoProtocol Zigbee",
+        "tab": "2d4d06b379cf51da",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "2d4d06b379cf51da",
+        "type": "ui_tab",
+        "name": "ISAT Dashboard",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "235d211e93f4d28d",
+        "type": "ui_group",
+        "name": "MultiProtocol LoRa",
+        "tab": "2d4d06b379cf51da",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "9226908c55a1a587",
+        "type": "ui_group",
+        "name": "Firebase Logs ",
+        "tab": "2d4d06b379cf51da",
+        "order": 4,
+        "disp": true,
+        "width": "18",
+        "collapse": true,
+        "className": ""
+    },
+    {
+        "id": "c6f2b8e06d076ad7",
+        "type": "ui_group",
+        "name": "Event",
+        "tab": "2d4d06b379cf51da",
+        "order": 5,
+        "disp": true,
+        "width": "18",
+        "collapse": true,
+        "className": ""
+    },
+    {
+        "id": "be79d1af677d868d",
+        "type": "ui_group",
+        "name": "Logs2",
+        "tab": "2d4d06b379cf51da",
+        "order": 6,
+        "disp": true,
+        "width": "18",
+        "collapse": true,
+        "className": ""
+    },
+    {
+        "id": "4065d330a32f948d",
+        "type": "ui_group",
+        "name": "MultiProtocol Charts",
+        "tab": "2d4d06b379cf51da",
+        "order": 7,
+        "disp": true,
+        "width": "12",
+        "collapse": true,
+        "className": ""
+    },
+    {
+        "id": "d8b2cabaa0f08e03",
+        "type": "ui_group",
+        "name": "MonoProtocol Zigbee Chart ",
+        "tab": "2d4d06b379cf51da",
+        "order": 8,
+        "disp": true,
+        "width": "12",
+        "collapse": true,
+        "className": ""
+    },
+    {
+        "id": "44ae4315e53743c3",
+        "type": "ui_group",
+        "name": "MonoProtocol LoRa Charts",
+        "tab": "2d4d06b379cf51da",
+        "order": 9,
+        "disp": true,
+        "width": "12",
+        "collapse": true,
+        "className": ""
+    },
+    {
+        "id": "36923e3daf284b16",
+        "type": "telegram sender",
+        "z": "3f28d583ba724553",
+        "name": "",
+        "bot": "321ac3d324739851",
+        "haserroroutput": false,
+        "outputs": 1,
+        "x": 750,
+        "y": 460,
+        "wires": [
+            [
+                "f325e4d448a97780"
+            ]
+        ]
+    },
+    {
+        "id": "310dc62efdb7773c",
+        "type": "telegram receiver",
+        "z": "3f28d583ba724553",
+        "name": "",
+        "bot": "321ac3d324739851",
+        "saveDataDir": "",
+        "filterCommands": false,
+        "x": 90,
+        "y": 420,
+        "wires": [
+            [
+                "b8769f067c3c1998",
+                "dca4d62c51280fe9"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "f7ced33d258fd3ec",
+        "type": "function",
+        "z": "3f28d583ba724553",
+        "name": "Keywords selection",
+        "func": "recv = msg.payload.content;\n\nmsg.payload = {}\nmsg.payload.options = {disable_web_page_preview : true, parse_mode : \"Markdown\"};\nmsg.payload.chatId = global.get(\"chatID\");\nmsg.payload.type = \"message\";\n//  Name of each PCB            Name of each Button         Button position (line)\nvar myDictKeyboard = { \n    \"MultiProtocol\" :       [   \"Get DHT22 Temperature\",    1,\n                                \"Get DHT22 Humidity\",       2,\n                                \"Set LED2 ON\",              3,\n                                \"Set LED2 OFF\",             3],\n    \"MonoProtocol Zigbee\" : [   \"Get Elegoo Sensor A0\",     1,\n                                \"Set Buzzer ON\",            2,\n                                \"Set Buzzer OFF\",           2,\n                                \"Set LED2 ON\",              3,\n                                \"Set LED2 OFF\",             3],\n    \"MonoProtocol LoRa\"   : [   \"Get DS18B20 Temperature\",  1,\n                                \"Get LDR Brightness\",       2,\n                                \"Set LED2 ON\",              3,\n                                \"Set LED2 OFF\",             3]\n};\n\n//----------------------MENU KEYWORD----------------------//    \nif ((recv.toUpperCase() == \"MENU\") || (recv.toUpperCase() == \"BACK TO MENU\")){\n    msg.payload.content = \"💬 Welcome in the *Menu* \"+ global.get(\"user\")+\" ! Choose an option :\";\n    \n    opts = {\n      reply_markup: JSON.stringify({\n        keyboard: [\n          [\"Go to PCB MultiProtocol\"],\n          [\"Go to PCB MonoProtocol Zigbee\"],\n          [\"Go to PCB MonoProtocol LoRa\"],\n          [\"Logs\", \"Help\"]],\n          'resize_keyboard' : true,\n          'one_time_keyboard' : true\n      }),\n      disable_web_page_preview : true,\n      parse_mode : \"Markdown\"\n    };\n    msg.payload.options = opts;\n}\n\n//----------------------STATE KEYWORD----------------------//    \nelse if (recv.toUpperCase() == \"LOGS\"){\n    msg.payload.content = \"📚 I will try to read the history message. Wait a moment...\"; //en cours de développement... \n}\n//----------------------HELP KEYWORD----------------------//\nelse if (recv.toUpperCase() == \"HELP\"){\n    msg.payload.content = \"🆘 You asked for help. \\n\\r\\n\\r\";  //en cours de développement... \n    msg.payload.content += \"To enter in the main menu write and send the keyword \\\"menu\\\". \\n\\r\\n\\r\";\n    msg.payload.content += \"You will then be able to access all the PCBs available in your mqtt local network. \\n\\r\\n\\r\";\n    msg.payload.content += \"You will also be able to read the message history with logs of a data base. \\n\\r\\n\\r\";\n}\n//----------------------UNKNOWN KEYWORD----------------------//\nelse {\n    randomNumber = Math.round(Math.random()*5);\n    msg.payload.content = (\"⚠️️\");\n    //msg.payload.content += randomNumber.toString();\n    switch(randomNumber) {\n        case 5 : msg.payload.content += \" Your keyword is not in my data base\"; break;\n        case 4 : msg.payload.content += \" I do not understand\"; break;\n        case 3 : msg.payload.content += \" Try again with another keyword please\"; break;\n        case 2 : msg.payload.content += \" Hein ? Can you repeat ?\"; break;\n        case 1 : msg.payload.content += \" Sorry ? Try the keword *HELP*\"; break;\n        case 0 : msg.payload.content = \"🖕\"; break;\n    }\n}\n\n//Gestion des touches cliquées dans les menus des PCB par l'utilisateur et création des messages de retour ainsi que des topics MQTT\nfor (var myPCB in myDictKeyboard){                                                                                  // On parcour tous les PCB\n    for (let myMsg = 0; myMsg < myDictKeyboard[myPCB].length ; myMsg+=2){                                           // On parcour tous les textes des boutons (indices pairs)\n                \n        if (recv.toUpperCase() == (\"GO TO PCB \" + myPCB.toUpperCase() )){                                           // Si j'ai cliqué sur un bouton PCB dans le menu (ex: Go To PCB MultiProtocol)\n            msg.payload.content = \"💬 I am in the *PCB \"+ myPCB +\"* ! Choose an option :\";                          // Le bot me répondra avec cette phrase\n            global.set(\"PCBselected\", myPCB.toUpperCase());                                                         // On conserve quel bouton PCB on avait cliqué (Mono/MultiProtocol...)\n            keyboardList = [];                                                                                      // Création d'une liste contenant les boutons accessible dans le menu du PCB\n            pastpositionOfButtonInOneLine = 0;                                                                      // Préparation de la variable détectant si sur une ligne il y aura 1 ou plusieurs boutons\n            columnOfLine = 0;                                                                                       // Préparation de la variable positionnant le texte du deuxième bouton ou plus sur une meme ligne \n            for (let indiceOfButton = 0; indiceOfButton< (myDictKeyboard[myPCB].length)/2 ; indiceOfButton++){      // On parcour les indices/positions des boutons du dictionnaire\n                \n                positionOfButtonInOneLine = myDictKeyboard[myPCB][(indiceOfButton*2)+1];                            // On récupère les positions de chaque boutons (ex: 1, 2, 3, 3) dans chaque ligne\n                \n                if ( positionOfButtonInOneLine > pastpositionOfButtonInOneLine){                                    // Si sur la ligne je ne veux mettre qu'un bouton\n                    keyboardList[indiceOfButton] = [myDictKeyboard[myPCB][indiceOfButton*2]];                       // On récupère les valeurs des cléfs (texte des btn) pour les formater sous forme de liste keyboard, ex : [[a],[b],[c],...]\n                    columnOfLine = 0;                                                                               // On réinitialise la variable parce qu'il n'y a pour l'instant pas un deuxième bouton sur la meme ligne\n                }\n                \n                else if (positionOfButtonInOneLine == pastpositionOfButtonInOneLine){                               // Si sur la ligne je veux mettre 2 ou plusieurs boutons\n                    columnOfLine++;                                                                                 // Sur la meme ligne il y a un deuxième bouton (ou plus), donc on incrémente la variable\n                    keyboardList[indiceOfButton-columnOfLine][columnOfLine] = myDictKeyboard[myPCB][(indiceOfButton*2)]; // On récupère les valeurs des cléfs (texte des btn) pour les formater sous forme de liste keyboard, ex : [[a, b],[c, d, e],[f, g],...]\n                }\n                pastpositionOfButtonInOneLine = positionOfButtonInOneLine;                                          // On récupère la précédente valeur de la position du bouton (1,2,3,3)\n            }\n            keyboardList = keyboardList.filter(n => n);                                                             // Il y a un emplacement vide qui apparait dans la liste parfois, donc on le filtre (un défaut de pointeur)\n            keyboardList[keyboardList.length]= [\"Back to Menu\"];                                                    // On rajout un dernier bouton tout en bas, celui de revenir vers le menu\n            \n            opts = {                            // Début de création des options du custom keyboard\n              reply_markup: JSON.stringify({    // Préparation du JSON\n                keyboard: keyboardList,         // On reprend la liste formattée pour l'insérer dans le JSON (elle va permettre de positionner les boutons comme précédement formaté sous la variable keyboardList)\n                  'resize_keyboard' : true,     // Paramètre de mise en page\n                  'one_time_keyboard' : true    // Paramètre de mise en page\n              }),\n              disable_web_page_preview : true,  // Paramètre de mise en page\n              parse_mode : \"Markdown\"           // Paramètre de mise en page\n            };\n            msg.payload.options = opts;         // Introduction des options JSON dans la charge utile\n        }\n          \n        if (recv.toUpperCase() == (myDictKeyboard[myPCB][myMsg]).toUpperCase() && (global.get(\"PCBselected\") == myPCB.toUpperCase())){              // Si j'ai cliqué dans une option d'un menu d'un PCB (ex : \"Set LED ON\" du PCB MultiProtocol)\n            msg.payload.content = \"💬 I am in the *PCB \" + myPCB + \"* and I will try to *\" + myDictKeyboard[myPCB][myMsg] + \"* ! Wait a moment...\"; // Alors le bot me répond\n            global.set(\"MQTTrequest\", (myPCB.toUpperCase()) + \" \" + (myDictKeyboard[myPCB][myMsg]).toUpperCase());                                  // Création d'une chaine permettant de créer la requete MQTT\n            global.set(\"MQTTtopic\", myPCB);                                                                                            // Création du Topics MQTT qui contiendra la requete\n        }\n    }\n}\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 510,
+        "y": 420,
+        "wires": [
+            [
+                "36923e3daf284b16",
+                "2946e1a251054664",
+                "68b6e99a7cd3191a"
+            ]
+        ]
+    },
+    {
+        "id": "d67eaca3b5e31809",
+        "type": "mqtt in",
+        "z": "3f28d583ba724553",
+        "name": "",
+        "topic": "MultiProtocol/RequestExecuted",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "7c83e9c1d1dd1eda",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 150,
+        "y": 500,
+        "wires": [
+            [
+                "56dc849624abde8e"
+            ]
+        ]
+    },
+    {
+        "id": "2946e1a251054664",
+        "type": "function",
+        "z": "3f28d583ba724553",
+        "name": "Topics & Payloads Manager",
+        "func": "msg.topic = global.get(\"MQTTtopic\")+\"/Request\";\nvar myDictMQTTrequest = { \n\"MULTIPROTOCOL GET DHT22 TEMPERATURE\" : \"temp\",\n\"MULTIPROTOCOL GET DHT22 HUMIDITY\" : \"hum\",\n\"MULTIPROTOCOL SET LED2 OFF\" : \"off\",\n\"MULTIPROTOCOL SET LED2 ON\" : \"on\",\n\"MONOPROTOCOL ZIGBEE GET ELEGOO SENSOR A0\" : \"analog\",\n\"MONOPROTOCOL ZIGBEE SET BUZZER ON\" : \"Bon\",\n\"MONOPROTOCOL ZIGBEE SET BUZZER OFF\" : \"Boff\",\n\"MONOPROTOCOL ZIGBEE SET LED2 ON\" : \"Lon\",\n\"MONOPROTOCOL ZIGBEE SET LED2 OFF\" : \"Loff\",\n\"MONOPROTOCOL LORA GET DS18B20 TEMPERATURE\" : \"temp\",\n\"MONOPROTOCOL LORA GET LDR BRIGHTNESS\" : \"lum\",\n\"MONOPROTOCOL LORA SET LED2 ON\": \"on\",\n\"MONOPROTOCOL LORA SET LED2 OFF\": \"off\"\n};\n\nfor (var key in myDictMQTTrequest){\n    if (global.get(\"MQTTrequest\") == key){\n        msg.payload = myDictMQTTrequest[key]; \n        global.set(\"currentPayload\", myDictMQTTrequest[key]);\n        global.set(\"MQTTrequest\",\"EMPTY\");\n        return msg;\n    }\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 780,
+        "y": 420,
+        "wires": [
+            [
+                "9becc93510c4e72f"
+            ]
+        ]
+    },
+    {
+        "id": "9becc93510c4e72f",
+        "type": "mqtt out",
+        "z": "3f28d583ba724553",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "7c83e9c1d1dd1eda",
+        "x": 1090,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "b19cf2897917d95e",
+        "type": "function",
+        "z": "3f28d583ba724553",
+        "name": "accusé de reception",
+        "func": "recv = msg.payload;\n\nmsg.payload = {};\nmsg.payload.options = {disable_web_page_preview : true, parse_mode : \"Markdown\"};\nmsg.payload.chatId = global.get(\"chatID\");\nmsg.payload.type = \"message\";\nmsg.payload.content = (\"✅ \" + recv);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 520,
+        "y": 460,
+        "wires": [
+            [
+                "36923e3daf284b16"
+            ]
+        ]
+    },
+    {
+        "id": "a33f5bd61ee9d5af",
+        "type": "mqtt in",
+        "z": "3f28d583ba724553",
+        "name": "",
+        "topic": "MultiProtocol/Event",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "7c83e9c1d1dd1eda",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 110,
+        "y": 700,
+        "wires": [
+            [
+                "d9ce35b5b758b7d7"
+            ]
+        ]
+    },
+    {
+        "id": "f762edfa8fb060e8",
+        "type": "function",
+        "z": "3f28d583ba724553",
+        "name": "Event message",
+        "func": "recv = msg.payload;\n\nmsg.payload = {};\nmsg.payload.options = {disable_web_page_preview : true, parse_mode : \"Markdown\"};\nmsg.payload.chatId = global.get(\"all_chatIDs\");\nmsg.payload.type = \"message\";\nmsg.payload.content = (\"❗️\" + recv);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 500,
+        "wires": [
+            [
+                "36923e3daf284b16"
+            ]
+        ]
+    },
+    {
+        "id": "a25f44bf95017b9a",
+        "type": "comment",
+        "z": "3f28d583ba724553",
+        "name": "Création des chatsIDs et sélections des mots d'utilisateurs",
+        "info": "[Keywords selection] Dans cette fonction se trouve une suite de condition interprettant les mots de l'utilisateurs. C'est aussi dans cette fonction que se crée les chats_IDs des différents utilisateurs.",
+        "x": 430,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "b8769f067c3c1998",
+        "type": "function",
+        "z": "3f28d583ba724553",
+        "name": "Users manager",
+        "func": "chat_ID = msg.payload.chatId;\nusers = [\"ISATGroup\", \"Davide\", \"Aldo\", \"Matteo\"]\n//global.set(\"all_chatIDs\",5307972959);\nglobal.set(\"all_chatIDs\",[-701587570, 5307972959, 5329300191, 5379739416]);\n//Le bot répondra à celui qui lui a envoyé un msg uniquement :\nfor(let i = 0; i < 4; i++){\n    if(chat_ID == (global.get(\"all_chatIDs\"))[i]){\n        global.set(\"chatID\", chat_ID); \n        global.set(\"user\", users[i]);\n    }\n}\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 300,
+        "y": 420,
+        "wires": [
+            [
+                "f7ced33d258fd3ec"
+            ]
+        ]
+    },
+    {
+        "id": "e8c5d63b2a3eebcd",
+        "type": "mqtt in",
+        "z": "3f28d583ba724553",
+        "name": "",
+        "topic": "MonoProtocol Zigbee/Event",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "7c83e9c1d1dd1eda",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 140,
+        "y": 760,
+        "wires": [
+            [
+                "d9ce35b5b758b7d7"
+            ]
+        ]
+    },
+    {
+        "id": "aaf14e7d3e7339c3",
+        "type": "mqtt in",
+        "z": "3f28d583ba724553",
+        "name": "",
+        "topic": "MonoProtocol Zigbee/RequestExecuted",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "7c83e9c1d1dd1eda",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 170,
+        "y": 560,
+        "wires": [
+            [
+                "56dc849624abde8e"
+            ]
+        ]
+    },
+    {
+        "id": "3a041cdfcdc8b2f8",
+        "type": "mqtt in",
+        "z": "3f28d583ba724553",
+        "name": "",
+        "topic": "MonoProtocol LoRa/RequestExecuted",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "7c83e9c1d1dd1eda",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 170,
+        "y": 620,
+        "wires": [
+            [
+                "56dc849624abde8e"
+            ]
+        ]
+    },
+    {
+        "id": "54674dae6ea17b56",
+        "type": "mqtt in",
+        "z": "3f28d583ba724553",
+        "name": "",
+        "topic": "MonoProtocol LoRa/Event",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "7c83e9c1d1dd1eda",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 130,
+        "y": 820,
+        "wires": [
+            [
+                "d9ce35b5b758b7d7"
+            ]
+        ]
+    },
+    {
+        "id": "fefc1b281ddc8b13",
+        "type": "function",
+        "z": "3f28d583ba724553",
+        "name": "to PCB Sections Firebase - display payload",
+        "func": "recv = msg.payload;\nsplitRecv = recv.split(\" \");\ndataRecv = splitRecv[splitRecv.length-1]; //la data utile est le dernier \"mot\" de l'accusé de reception\nglobal.set(\"FirebasePayload\", dataRecv);\nurl = \"https://isatfirebase-default-rtdb.europe-west1.firebasedatabase.app/\";\n\nmyPCB = global.get(\"MQTTtopic\")\nmyDeviceOfPCB = global.get(\"currentPayload\");\n\nmsg.method = \"PUT\";\nmsg.url = url+myPCB+\"/\"+myDeviceOfPCB+\".json\";\n\n/*\nUTC_timeList = ((msg.mytimes).split(':')); //UTC+0\nUTC2_hour = ((UTC_timeList[0]).parseInt)+2; //UTC+2\nUTC_timeList[0] =  UTC2_hour;\nUTC2 = UTC_timeList.toString();\n*/\n\n//msg.payload = JSON.stringify(msg.myymd + \" \" + UTC_timeList[0] + \" : \"+ dataRecv);\nmsg.payload = JSON.stringify(msg.myymd + \" \" + msg.mytimes + \" : \"+ dataRecv);\n//msg.payload = myPCB+\" \"+myDeviceOfPCB+ \" : \"+dataRecv;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 790,
+        "y": 660,
+        "wires": [
+            [
+                "27b7b3ee5f5fce2f"
+            ]
+        ]
+    },
+    {
+        "id": "27b7b3ee5f5fce2f",
+        "type": "http request",
+        "z": "3f28d583ba724553",
+        "name": "",
+        "method": "use",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "senderr": false,
+        "x": 1230,
+        "y": 660,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ad7d655fbe386c04",
+        "type": "simpletime",
+        "z": "3f28d583ba724553",
+        "name": "",
+        "mydate": false,
+        "myymd": true,
+        "myyear": false,
+        "mymonth": false,
+        "mymonthn": false,
+        "mydom": false,
+        "mydoy": false,
+        "myday": false,
+        "myhourpm": false,
+        "myhour": false,
+        "mytime": false,
+        "mytimes": true,
+        "myminute": false,
+        "myminutes": false,
+        "mysecond": false,
+        "mymillis": false,
+        "myepoch": false,
+        "myrawdate": false,
+        "mypm": false,
+        "x": 510,
+        "y": 660,
+        "wires": [
+            [
+                "fefc1b281ddc8b13",
+                "8d4c2e634877ba6a"
+            ]
+        ]
+    },
+    {
+        "id": "cd0d64f6fc2a22d0",
+        "type": "function",
+        "z": "3f28d583ba724553",
+        "name": "to Logs Sections Firebase - display payload",
+        "func": "recv = msg.payload;\ndataRecv = global.get(\"FirebasePayload\");\n\nurl = \"https://isatfirebase-default-rtdb.europe-west1.firebasedatabase.app/\";\n\nmyPCB = global.get(\"MQTTtopic\")\nmyDeviceOfPCB = global.get(\"currentPayload\");\n\n\nmsg.method = \"PUT\";\nmsg.url = url+\"Logs\"+\"/\"+String(recv)+\".json\";\n\nmsg.payload = JSON.stringify(myPCB + \" \" + myDeviceOfPCB +\" : \" +msg.myymd + \" \" + msg.mytimes + \" : \"+ dataRecv);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 790,
+        "y": 700,
+        "wires": [
+            [
+                "de575c33842052b4"
+            ]
+        ]
+    },
+    {
+        "id": "8d4c2e634877ba6a",
+        "type": "http request",
+        "z": "3f28d583ba724553",
+        "name": "",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "https://isatfirebase-default-rtdb.europe-west1.firebasedatabase.app/Logs/lines.json",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "senderr": false,
+        "x": 510,
+        "y": 740,
+        "wires": [
+            [
+                "cd0d64f6fc2a22d0",
+                "6ab01f6d8eaf481f",
+                "c94597b0c3bc8ea1"
+            ]
+        ]
+    },
+    {
+        "id": "6ab01f6d8eaf481f",
+        "type": "function",
+        "z": "3f28d583ba724553",
+        "name": "to Logs Sections Firebase - Line+1",
+        "func": "recv = msg.payload;\nurl = \"https://isatfirebase-default-rtdb.europe-west1.firebasedatabase.app/\";\n\nmsg.method = \"PUT\";\nmsg.url = url+\"Logs\"+\"/\"+\"lines\"+\".json\";\n\nmsg.payload = parseInt(recv)+1;\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 760,
+        "y": 740,
+        "wires": [
+            [
+                "6f2f03a87a2448c4"
+            ]
+        ]
+    },
+    {
+        "id": "c94597b0c3bc8ea1",
+        "type": "function",
+        "z": "3f28d583ba724553",
+        "name": "to Logs Sections Firebase - max 15 lines",
+        "func": "recv = msg.payload;\nurl = \"https://isatfirebase-default-rtdb.europe-west1.firebasedatabase.app/\";\n\nif (parseInt(recv)>15){\n    msg.url = url+\"Logs\"+\"/\"+String(parseInt(recv)-15)+\".json\";\n    msg.method = \"DELETE\";\n    //msg.payload = \"hello\";\n    return msg;\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 780,
+        "y": 780,
+        "wires": [
+            [
+                "16b03da18e322f8c"
+            ]
+        ]
+    },
+    {
+        "id": "06dbbb8c433d75f2",
+        "type": "comment",
+        "z": "3f28d583ba724553",
+        "name": "Reading number of lines and write in logs with max 15 lines",
+        "info": "",
+        "x": 650,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "de8d4097295d0791",
+        "type": "link in",
+        "z": "3f28d583ba724553",
+        "name": "RequestExecuted_IN2",
+        "links": [
+            "56dc849624abde8e"
+        ],
+        "x": 395,
+        "y": 660,
+        "wires": [
+            [
+                "ad7d655fbe386c04"
+            ]
+        ]
+    },
+    {
+        "id": "56dc849624abde8e",
+        "type": "link out",
+        "z": "3f28d583ba724553",
+        "name": "RequestExecuted_OUT",
+        "mode": "link",
+        "links": [
+            "38e7185327316e43",
+            "cff96cf1206677b4",
+            "de8d4097295d0791",
+            "3ca45d273c0ff839"
+        ],
+        "x": 425,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "38e7185327316e43",
+        "type": "link in",
+        "z": "3f28d583ba724553",
+        "name": "RequestExecuted_IN1",
+        "links": [
+            "56dc849624abde8e"
+        ],
+        "x": 365,
+        "y": 460,
+        "wires": [
+            [
+                "b19cf2897917d95e"
+            ]
+        ]
+    },
+    {
+        "id": "d9ce35b5b758b7d7",
+        "type": "link out",
+        "z": "3f28d583ba724553",
+        "name": "Event_OUT",
+        "mode": "link",
+        "links": [
+            "101bfae94aa06a49",
+            "9774b0fd5a971aa0"
+        ],
+        "x": 325,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "101bfae94aa06a49",
+        "type": "link in",
+        "z": "3f28d583ba724553",
+        "name": "Event_IN1",
+        "links": [
+            "d9ce35b5b758b7d7"
+        ],
+        "x": 365,
+        "y": 500,
+        "wires": [
+            [
+                "f762edfa8fb060e8"
+            ]
+        ]
+    },
+    {
+        "id": "de575c33842052b4",
+        "type": "delay",
+        "z": "3f28d583ba724553",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "25",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1050,
+        "y": 700,
+        "wires": [
+            [
+                "27b7b3ee5f5fce2f"
+            ]
+        ]
+    },
+    {
+        "id": "6f2f03a87a2448c4",
+        "type": "delay",
+        "z": "3f28d583ba724553",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "50",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1050,
+        "y": 740,
+        "wires": [
+            [
+                "27b7b3ee5f5fce2f"
+            ]
+        ]
+    },
+    {
+        "id": "16b03da18e322f8c",
+        "type": "delay",
+        "z": "3f28d583ba724553",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "75",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1050,
+        "y": 780,
+        "wires": [
+            [
+                "27b7b3ee5f5fce2f",
+                "105248844ac4295b"
+            ]
+        ]
+    },
+    {
+        "id": "97c237b26db9c117",
+        "type": "function",
+        "z": "3f28d583ba724553",
+        "name": "to Event Sections Firebase - display payload",
+        "func": "recv = msg.payload;\nurl = \"https://isatfirebase-default-rtdb.europe-west1.firebasedatabase.app/\";\n\nmsg.method = \"PUT\";\nmsg.url = url+\"Event.json\";\n\nmsg.payload = JSON.stringify(msg.myymd + \" \" + msg.mytimes + \" : \"+ recv);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 790,
+        "y": 620,
+        "wires": [
+            [
+                "27b7b3ee5f5fce2f",
+                "2850b62cc14b4535"
+            ]
+        ]
+    },
+    {
+        "id": "9774b0fd5a971aa0",
+        "type": "link in",
+        "z": "3f28d583ba724553",
+        "name": "Event_IN2",
+        "links": [
+            "d9ce35b5b758b7d7"
+        ],
+        "x": 395,
+        "y": 620,
+        "wires": [
+            [
+                "6d0b90ea398fc327"
+            ]
+        ]
+    },
+    {
+        "id": "6d0b90ea398fc327",
+        "type": "simpletime",
+        "z": "3f28d583ba724553",
+        "name": "",
+        "mydate": false,
+        "myymd": true,
+        "myyear": false,
+        "mymonth": false,
+        "mymonthn": false,
+        "mydom": false,
+        "mydoy": false,
+        "myday": false,
+        "myhourpm": false,
+        "myhour": false,
+        "mytime": false,
+        "mytimes": true,
+        "myminute": false,
+        "myminutes": false,
+        "mysecond": false,
+        "mymillis": false,
+        "myepoch": false,
+        "myrawdate": false,
+        "mypm": false,
+        "x": 510,
+        "y": 620,
+        "wires": [
+            [
+                "97c237b26db9c117"
+            ]
+        ]
+    },
+    {
+        "id": "dca4d62c51280fe9",
+        "type": "debug",
+        "z": "3f28d583ba724553",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 310,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "f325e4d448a97780",
+        "type": "debug",
+        "z": "3f28d583ba724553",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 950,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "539d8bd31a122af6",
+        "type": "link in",
+        "z": "3f28d583ba724553",
+        "name": "UIbuttons_IN1",
+        "links": [
+            "0ed19b148768e8ee"
+        ],
+        "x": 605,
+        "y": 340,
+        "wires": [
+            [
+                "2946e1a251054664"
+            ]
+        ]
+    },
+    {
+        "id": "105248844ac4295b",
+        "type": "link out",
+        "z": "3f28d583ba724553",
+        "name": "LogsDone_OUT1",
+        "mode": "link",
+        "links": [
+            "553e48ae25c139a6"
+        ],
+        "x": 1235,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "2850b62cc14b4535",
+        "type": "link out",
+        "z": "3f28d583ba724553",
+        "name": "UIEvent_OUT1",
+        "mode": "link",
+        "links": [
+            "ddf3d06b0fbd73d3"
+        ],
+        "x": 1105,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "a87855240fd819e4",
+        "type": "http request",
+        "z": "3f28d583ba724553",
+        "name": "",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "https://isatfirebase-default-rtdb.europe-west1.firebasedatabase.app/Logs.json",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "senderr": false,
+        "x": 870,
+        "y": 380,
+        "wires": [
+            [
+                "cbab9a76da75c0a5"
+            ]
+        ]
+    },
+    {
+        "id": "68b6e99a7cd3191a",
+        "type": "switch",
+        "z": "3f28d583ba724553",
+        "name": "",
+        "property": "payload.content",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "📚 I will try to read the history message. Wait a moment...",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 710,
+        "y": 380,
+        "wires": [
+            [
+                "a87855240fd819e4"
+            ]
+        ]
+    },
+    {
+        "id": "cbab9a76da75c0a5",
+        "type": "function",
+        "z": "3f28d583ba724553",
+        "name": "Logs message",
+        "func": "logsLines = msg.payload.lines;\nlogsText = msg.payload;\nmsg.payload = {};\nmsg.payload.options = {disable_web_page_preview : true, parse_mode : \"Markdown\"};\nmsg.payload.type = \"message\";\nmsg.payload.chatId = global.get(\"all_chatIDs\");\nmsg.payload.content = \"\";\nfor (let i = 15; i>0; i--){\n    msg.payload.content += String(logsText[logsLines-i])+\"\\n\\r\\n\\r\"\n}\n\n//msg.payload.content = String(logsText[logsLines-15])+\"\\n\\r\\n\\r\"\n//msg.payload.content += String(logsText[logsLines-14])+\"\\n\\r\\n\\r\"\n//msg.payload.content += String(logsText[logsLines-13])+\"\\n\\r\\n\\r\"\n//msg.payload.content += String(logsText[logsLines-12])+\"\\n\\r\\n\\r\"\n//msg.payload.content += String(logsText[logsLines-11])+\"\\n\\r\\n\\r\"\n//msg.payload.content += String(logsText[logsLines-10])+\"\\n\\r\\n\\r\"\n//msg.payload.content += String(logsText[logsLines-9])+\"\\n\\r\\n\\r\"\n//msg.payload.content += String(logsText[logsLines-8])+\"\\n\\r\\n\\r\"\n//msg.payload.content += String(logsText[logsLines-7])+\"\\n\\r\\n\\r\"\n//msg.payload.content += String(logsText[logsLines-6])+\"\\n\\r\\n\\r\"\n//msg.payload.content += String(logsText[logsLines-5])+\"\\n\\r\\n\\r\"\n//msg.payload.content += String(logsText[logsLines-4])+\"\\n\\r\\n\\r\"\n//msg.payload.content += String(logsText[logsLines-3])+\"\\n\\r\\n\\r\"\n//msg.payload.content += String(logsText[logsLines-2])+\"\\n\\r\\n\\r\"\n//msg.payload.content += String(logsText[logsLines-1])+\"\\n\\r\\n\\r\"\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1060,
+        "y": 380,
+        "wires": [
+            [
+                "5accadd3d81ef189"
+            ]
+        ]
+    },
+    {
+        "id": "5accadd3d81ef189",
+        "type": "link out",
+        "z": "3f28d583ba724553",
+        "name": "TelegramLogs_OUT1",
+        "mode": "link",
+        "links": [
+            "54c55b5437ace647"
+        ],
+        "x": 1195,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "54c55b5437ace647",
+        "type": "link in",
+        "z": "3f28d583ba724553",
+        "name": "TelegramLogs_IN1",
+        "links": [
+            "5accadd3d81ef189"
+        ],
+        "x": 605,
+        "y": 540,
+        "wires": [
+            [
+                "36923e3daf284b16"
+            ]
+        ]
+    },
+    {
+        "id": "c8b5e1649c01d960",
+        "type": "ui_button",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "group": "99fdc0998b2de5a0",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Get DHT22 Temperature",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "MULTIPROTOCOL GET DHT22 TEMPERATURE",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 590,
+        "y": 140,
+        "wires": [
+            [
+                "b62cc0e4314dd26e"
+            ]
+        ]
+    },
+    {
+        "id": "9e436c5120dd8fb6",
+        "type": "ui_button",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "group": "581c1335c675c2ed",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Get Elegoo Sensor A0",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "MONOPROTOCOL ZIGBEE GET ELEGOO SENSOR A0",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 580,
+        "y": 420,
+        "wires": [
+            [
+                "ccb3e4453be4e478"
+            ]
+        ]
+    },
+    {
+        "id": "8229eaae607e55e5",
+        "type": "ui_button",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "group": "235d211e93f4d28d",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Get DS18B20 Temperature",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "MONOPROTOCOL LORA GET DS18B20 TEMPERATURE",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 600,
+        "y": 780,
+        "wires": [
+            [
+                "559cda57bf2a84e4"
+            ]
+        ]
+    },
+    {
+        "id": "859233e6c7a6c0f1",
+        "type": "ui_button",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "group": "99fdc0998b2de5a0",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Get DHT22 Humidity",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "MULTIPROTOCOL GET DHT22 HUMIDITY",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 580,
+        "y": 180,
+        "wires": [
+            [
+                "b62cc0e4314dd26e"
+            ]
+        ]
+    },
+    {
+        "id": "e55ba42f2c1d67e5",
+        "type": "ui_button",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "group": "235d211e93f4d28d",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Get LDR Brightness",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "MONOPROTOCOL LORA GET LDR BRIGHTNESS",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 580,
+        "y": 820,
+        "wires": [
+            [
+                "559cda57bf2a84e4"
+            ]
+        ]
+    },
+    {
+        "id": "a160d397e08d24e3",
+        "type": "ui_button",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "group": "235d211e93f4d28d",
+        "order": 0,
+        "width": "3",
+        "height": "1",
+        "passthru": false,
+        "label": "Set LED2 ON",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "MONOPROTOCOL LORA SET LED2 ON",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 560,
+        "y": 860,
+        "wires": [
+            [
+                "559cda57bf2a84e4"
+            ]
+        ]
+    },
+    {
+        "id": "771dd6a4e23fd86f",
+        "type": "ui_button",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "group": "235d211e93f4d28d",
+        "order": 0,
+        "width": "3",
+        "height": "1",
+        "passthru": false,
+        "label": "Set LED2 OFF",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "MONOPROTOCOL LORA SET LED2 OFF",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 560,
+        "y": 900,
+        "wires": [
+            [
+                "559cda57bf2a84e4"
+            ]
+        ]
+    },
+    {
+        "id": "6530cb8483c56b7c",
+        "type": "ui_button",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "group": "581c1335c675c2ed",
+        "order": 0,
+        "width": "3",
+        "height": "1",
+        "passthru": false,
+        "label": "Set Buzzer ON",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "MONOPROTOCOL ZIGBEE SET BUZZER ON",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 560,
+        "y": 460,
+        "wires": [
+            [
+                "ccb3e4453be4e478"
+            ]
+        ]
+    },
+    {
+        "id": "b30d88b80b42501e",
+        "type": "ui_button",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "group": "581c1335c675c2ed",
+        "order": 0,
+        "width": "3",
+        "height": "1",
+        "passthru": false,
+        "label": "Set Buzzer OFF",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "MONOPROTOCOL ZIGBEE SET BUZZER OFF",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 560,
+        "y": 500,
+        "wires": [
+            [
+                "ccb3e4453be4e478"
+            ]
+        ]
+    },
+    {
+        "id": "fc1873f74b6fbc00",
+        "type": "ui_button",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "group": "581c1335c675c2ed",
+        "order": 0,
+        "width": "3",
+        "height": "1",
+        "passthru": false,
+        "label": "Set LED2 ON",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "MONOPROTOCOL ZIGBEE SET LED2 ON",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 560,
+        "y": 540,
+        "wires": [
+            [
+                "ccb3e4453be4e478"
+            ]
+        ]
+    },
+    {
+        "id": "27ebc7b26fcbf77f",
+        "type": "ui_button",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "group": "581c1335c675c2ed",
+        "order": 0,
+        "width": "3",
+        "height": "1",
+        "passthru": false,
+        "label": "Set LED2 OFF",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "MONOPROTOCOL ZIGBEE SET LED2 OFF",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 560,
+        "y": 580,
+        "wires": [
+            [
+                "ccb3e4453be4e478"
+            ]
+        ]
+    },
+    {
+        "id": "3bf07260e70e7fc6",
+        "type": "ui_button",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "group": "99fdc0998b2de5a0",
+        "order": 0,
+        "width": "3",
+        "height": "1",
+        "passthru": false,
+        "label": "SET LED2 ON",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "MULTIPROTOCOL SET LED2 OFF",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 560,
+        "y": 220,
+        "wires": [
+            [
+                "b62cc0e4314dd26e"
+            ]
+        ]
+    },
+    {
+        "id": "2dbf2231767c3d24",
+        "type": "ui_button",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "group": "99fdc0998b2de5a0",
+        "order": 0,
+        "width": "3",
+        "height": "1",
+        "passthru": false,
+        "label": "SET LED2 OFF",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "MULTIPROTOCOL SET LED2 ON",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 560,
+        "y": 260,
+        "wires": [
+            [
+                "b62cc0e4314dd26e"
+            ]
+        ]
+    },
+    {
+        "id": "fbe5d3e542a1fbf9",
+        "type": "comment",
+        "z": "f6f2187d.f17ca8",
+        "name": "Telegram Interface MultiProtocol (Node Red UI)",
+        "info": "",
+        "x": 660,
+        "y": 20,
+        "wires": []
+    },
+    {
+        "id": "481c24702fa80308",
+        "type": "comment",
+        "z": "f6f2187d.f17ca8",
+        "name": "Telegram Interface MonoProtocol Zigbee (Node Red UI)",
+        "info": "",
+        "x": 680,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "cd358ef7741c7e0b",
+        "type": "comment",
+        "z": "f6f2187d.f17ca8",
+        "name": "Telegram Interface MonoProtocol LoRa (Node Red UI)",
+        "info": "",
+        "x": 680,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "148f8f4100b89c44",
+        "type": "comment",
+        "z": "f6f2187d.f17ca8",
+        "name": "Logs Interface ",
+        "info": "",
+        "x": 1310,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "0ed19b148768e8ee",
+        "type": "link out",
+        "z": "f6f2187d.f17ca8",
+        "name": "UIbuttons_OUT1",
+        "mode": "link",
+        "links": [
+            "539d8bd31a122af6"
+        ],
+        "x": 965,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "b62cc0e4314dd26e",
+        "type": "function",
+        "z": "f6f2187d.f17ca8",
+        "name": "Topic construction",
+        "func": "global.set(\"MQTTtopic\", \"MultiProtocol\");\nglobal.set(\"MQTTrequest\", msg.payload);\nglobal.set(\"chatID\",-701587570);\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 850,
+        "y": 200,
+        "wires": [
+            [
+                "0ed19b148768e8ee"
+            ]
+        ]
+    },
+    {
+        "id": "ccb3e4453be4e478",
+        "type": "function",
+        "z": "f6f2187d.f17ca8",
+        "name": "Topic construction",
+        "func": "global.set(\"MQTTtopic\", \"MonoProtocol Zigbee\");\nglobal.set(\"MQTTrequest\", msg.payload);\nglobal.set(\"chatID\",-701587570);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 830,
+        "y": 500,
+        "wires": [
+            [
+                "0ed19b148768e8ee"
+            ]
+        ]
+    },
+    {
+        "id": "559cda57bf2a84e4",
+        "type": "function",
+        "z": "f6f2187d.f17ca8",
+        "name": "Topic construction",
+        "func": "global.set(\"MQTTtopic\", \"MonoProtocol LoRa\");\nglobal.set(\"MQTTrequest\", msg.payload);\nmsg.payload.chatId = -701587570;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 850,
+        "y": 840,
+        "wires": [
+            [
+                "0ed19b148768e8ee"
+            ]
+        ]
+    },
+    {
+        "id": "420a73e8908247d9",
+        "type": "ui_text",
+        "z": "f6f2187d.f17ca8",
+        "group": "99fdc0998b2de5a0",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Telegram Response :",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "x": 580,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "8a4c1b523b709236",
+        "type": "ui_text",
+        "z": "f6f2187d.f17ca8",
+        "group": "581c1335c675c2ed",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Telegram Response :",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "x": 580,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "84a9fe9189356240",
+        "type": "ui_text",
+        "z": "f6f2187d.f17ca8",
+        "group": "235d211e93f4d28d",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Telegram Response :",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "x": 580,
+        "y": 940,
+        "wires": []
+    },
+    {
+        "id": "cff96cf1206677b4",
+        "type": "link in",
+        "z": "f6f2187d.f17ca8",
+        "name": "RequestExecuted_IN3",
+        "links": [
+            "56dc849624abde8e"
+        ],
+        "x": 165,
+        "y": 620,
+        "wires": [
+            [
+                "127d1b98554fa8c0",
+                "d1626aac99060155",
+                "6cf48da3ac1b17c5"
+            ]
+        ]
+    },
+    {
+        "id": "127d1b98554fa8c0",
+        "type": "function",
+        "z": "f6f2187d.f17ca8",
+        "name": "Topic checking",
+        "func": "recv = msg.payload;\n\nif (global.get(\"MQTTtopic\") == \"MonoProtocol Zigbee\"){\n    return msg;\n}\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 620,
+        "wires": [
+            [
+                "8a4c1b523b709236",
+                "dc11085aecad3e20"
+            ]
+        ]
+    },
+    {
+        "id": "6cf48da3ac1b17c5",
+        "type": "function",
+        "z": "f6f2187d.f17ca8",
+        "name": "Topic checking",
+        "func": "recv = msg.payload;\n\nif (global.get(\"MQTTtopic\") == \"MultiProtocol\"){\n    return msg;\n}\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 300,
+        "wires": [
+            [
+                "420a73e8908247d9",
+                "c3cc5edbb118d09a"
+            ]
+        ]
+    },
+    {
+        "id": "d1626aac99060155",
+        "type": "function",
+        "z": "f6f2187d.f17ca8",
+        "name": "Topic checking",
+        "func": "recv = msg.payload;\n\nif (global.get(\"MQTTtopic\") == \"MonoProtocol LoRa\"){\n    return msg;\n}\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 940,
+        "wires": [
+            [
+                "84a9fe9189356240",
+                "21aa10fd1e1ee4b9"
+            ]
+        ]
+    },
+    {
+        "id": "5af8c56658bfde93",
+        "type": "ui_text",
+        "z": "f6f2187d.f17ca8",
+        "group": "9226908c55a1a587",
+        "order": 5,
+        "width": "9",
+        "height": "1",
+        "name": "",
+        "label": "1",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "x": 1490,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "211d3e65e7add7b0",
+        "type": "http request",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "https://isatfirebase-default-rtdb.europe-west1.firebasedatabase.app/Logs.json",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "senderr": false,
+        "x": 1130,
+        "y": 580,
+        "wires": [
+            [
+                "7d636c0cf8f65ca6"
+            ]
+        ]
+    },
+    {
+        "id": "fe4ca8904fb98c9c",
+        "type": "ui_text",
+        "z": "f6f2187d.f17ca8",
+        "group": "9226908c55a1a587",
+        "order": 5,
+        "width": "9",
+        "height": "1",
+        "name": "",
+        "label": "2",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "x": 1490,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "e09cce348e0e3e87",
+        "type": "ui_text",
+        "z": "f6f2187d.f17ca8",
+        "group": "9226908c55a1a587",
+        "order": 5,
+        "width": "9",
+        "height": "1",
+        "name": "",
+        "label": "3",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "x": 1490,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "e9a9aa9eeb059021",
+        "type": "ui_text",
+        "z": "f6f2187d.f17ca8",
+        "group": "9226908c55a1a587",
+        "order": 5,
+        "width": "9",
+        "height": "1",
+        "name": "",
+        "label": "4",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "x": 1490,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "714c7e6d7cc0dca5",
+        "type": "ui_text",
+        "z": "f6f2187d.f17ca8",
+        "group": "9226908c55a1a587",
+        "order": 5,
+        "width": "9",
+        "height": "1",
+        "name": "",
+        "label": "5",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "x": 1490,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "a16ffb3b9535e4d9",
+        "type": "ui_text",
+        "z": "f6f2187d.f17ca8",
+        "group": "9226908c55a1a587",
+        "order": 5,
+        "width": "9",
+        "height": "1",
+        "name": "",
+        "label": "6",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "x": 1490,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "ad6a7893239d1222",
+        "type": "ui_text",
+        "z": "f6f2187d.f17ca8",
+        "group": "9226908c55a1a587",
+        "order": 5,
+        "width": "9",
+        "height": "1",
+        "name": "",
+        "label": "7",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "x": 1490,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "4b1c2a3ed1c0eb1c",
+        "type": "ui_text",
+        "z": "f6f2187d.f17ca8",
+        "group": "9226908c55a1a587",
+        "order": 5,
+        "width": "9",
+        "height": "1",
+        "name": "",
+        "label": "8",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "x": 1490,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "bf80a98b209a5f4d",
+        "type": "ui_text",
+        "z": "f6f2187d.f17ca8",
+        "group": "9226908c55a1a587",
+        "order": 5,
+        "width": "9",
+        "height": "1",
+        "name": "",
+        "label": "9",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "x": 1490,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "5879bcb9e0b3093c",
+        "type": "ui_text",
+        "z": "f6f2187d.f17ca8",
+        "group": "9226908c55a1a587",
+        "order": 5,
+        "width": "9",
+        "height": "1",
+        "name": "",
+        "label": "10",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "x": 1490,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "f28eb05fe95ca5f9",
+        "type": "ui_text",
+        "z": "f6f2187d.f17ca8",
+        "group": "9226908c55a1a587",
+        "order": 5,
+        "width": "9",
+        "height": "1",
+        "name": "",
+        "label": "11",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "x": 1490,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "df53980363f3c274",
+        "type": "ui_text",
+        "z": "f6f2187d.f17ca8",
+        "group": "9226908c55a1a587",
+        "order": 5,
+        "width": "9",
+        "height": "1",
+        "name": "",
+        "label": "12",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "x": 1490,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "8335c8793cc39a40",
+        "type": "ui_text",
+        "z": "f6f2187d.f17ca8",
+        "group": "9226908c55a1a587",
+        "order": 5,
+        "width": "9",
+        "height": "1",
+        "name": "",
+        "label": "13",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "x": 1490,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "e3f829d325b647fb",
+        "type": "ui_text",
+        "z": "f6f2187d.f17ca8",
+        "group": "9226908c55a1a587",
+        "order": 5,
+        "width": "9",
+        "height": "1",
+        "name": "",
+        "label": "14",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "x": 1490,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "40b985f71f71202d",
+        "type": "ui_text",
+        "z": "f6f2187d.f17ca8",
+        "group": "9226908c55a1a587",
+        "order": 5,
+        "width": "9",
+        "height": "1",
+        "name": "",
+        "label": "15",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "x": 1490,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "7d636c0cf8f65ca6",
+        "type": "function",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "func": "logsLines = msg.payload.lines;\ntextLine1 = {payload:String(msg.payload[logsLines-15])+\"\\n\\r\"};\ntextLine2 = {payload:String(msg.payload[logsLines-14])+\"\\n\\r\"};\ntextLine3 = {payload:String(msg.payload[logsLines-13])+\"\\n\\r\"};\ntextLine4 = {payload:String(msg.payload[logsLines-12])+\"\\n\\r\"};\ntextLine5 = {payload:String(msg.payload[logsLines-11])+\"\\n\\r\"};\ntextLine6 = {payload:String(msg.payload[logsLines-10])+\"\\n\\r\"};\ntextLine7 = {payload:String(msg.payload[logsLines-9])+\"\\n\\r\"};\ntextLine8 = {payload:String(msg.payload[logsLines-8])+\"\\n\\r\"};\ntextLine9 = {payload:String(msg.payload[logsLines-7])+\"\\n\\r\"};\ntextLine10 = {payload:String(msg.payload[logsLines-6])+\"\\n\\r\"};\ntextLine11 = {payload:String(msg.payload[logsLines-5])+\"\\n\\r\"};\ntextLine12 = {payload:String(msg.payload[logsLines-4])+\"\\n\\r\"};\ntextLine13 = {payload:String(msg.payload[logsLines-3])+\"\\n\\r\"};\ntextLine14 = {payload:String(msg.payload[logsLines-2])+\"\\n\\r\"};\ntextLine15 = {payload:String(msg.payload[logsLines-1])+\"\\n\\r\"};\n\nreturn [textLine1, textLine2, textLine3, textLine4, textLine5, textLine6, textLine7, textLine8, textLine9, textLine10, textLine11, textLine12, textLine13, textLine14, textLine15];",
+        "outputs": 15,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1300,
+        "y": 580,
+        "wires": [
+            [
+                "5af8c56658bfde93"
+            ],
+            [
+                "fe4ca8904fb98c9c"
+            ],
+            [
+                "e09cce348e0e3e87"
+            ],
+            [
+                "e9a9aa9eeb059021"
+            ],
+            [
+                "714c7e6d7cc0dca5"
+            ],
+            [
+                "a16ffb3b9535e4d9"
+            ],
+            [
+                "ad6a7893239d1222"
+            ],
+            [
+                "4b1c2a3ed1c0eb1c"
+            ],
+            [
+                "bf80a98b209a5f4d"
+            ],
+            [
+                "5879bcb9e0b3093c"
+            ],
+            [
+                "f28eb05fe95ca5f9"
+            ],
+            [
+                "df53980363f3c274"
+            ],
+            [
+                "8335c8793cc39a40"
+            ],
+            [
+                "e3f829d325b647fb"
+            ],
+            [
+                "40b985f71f71202d"
+            ]
+        ]
+    },
+    {
+        "id": "553e48ae25c139a6",
+        "type": "link in",
+        "z": "f6f2187d.f17ca8",
+        "name": "LogsDone_IN1",
+        "links": [
+            "105248844ac4295b"
+        ],
+        "x": 1015,
+        "y": 580,
+        "wires": [
+            [
+                "211d3e65e7add7b0"
+            ]
+        ]
+    },
+    {
+        "id": "d81aa8bc.35b81",
+        "type": "ui_template",
+        "z": "f6f2187d.f17ca8",
+        "group": "",
+        "name": "Node-Red Dashboard Custom CSS",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "format": "<style>\nroot, a, button, p, div {\n    -webkit-user-select: none !important;\n}\n\nbody {\n    background: -webkit-linear-gradient(\n    55deg,\n    #009785 0%,\n    #245aa5 50%,\n    #b800e9 100%\n    );\n    -webkit-touch-callout: none !important;\n}\n\nbody.nr-dashboard-theme md-toolbar,\nbody.nr-dashboard-theme md-content md-card {\n    background-color: transparent !important;\n    color: #FFFFFF;\n}\n\nui-card-panel {\n    background-color: rgba(255,255,255,0.1) !important;\n    border-radius: 10px !important;\n}\n    \n#Homey_Dashboard_Navigation {\n    background-color: transparent !important;\n    border-radius: 10px !important;\n}\n\n.md-card.md-default-theme, md-card {\n    border-radius: 10px;\n}\n\n.nr-dashboard-switch.ng-scope {\n    background-color: rgba(255,255,255,.2) !important;\n}\n\n.nr-dashboard-switch.ng-scope:hover {\n    background-color: rgba(255,255,255,.5) !important;\n}\n\n.nr-dashboard-theme .nr-dashboard-button .md-button {\n    background-color: rgba(255,255,255,.2);\n}\n\n.md-button {\n    border-radius: 10px;\n}\n\n.nr-dashboard-cardpanel layout-column {\n    background-color: rgba(255,255,255,0.2) !important;\n    background-color: transparent !important;\n    border-radius: 10px !important;\n}\n\n.nr-dashboard-theme ui-card-panel {\n    border: none;\n}\n\n.nr-dashboard-template {\n    overflow-y: visible;\n}\n.nr-dashboard-theme md-content md-card {\n    background-color: transparent !important;\n}\n\n.nr-dashboard-theme ui-card-panel p.nr-dashboard-cardtitle {\n    color: rgba(255, 255, 255, 0.5);\n}\n</style>\n\n<script>\ndocument.ontouchmove = function (e) {\n    e.preventDefault();\n}\n</script>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": false,
+        "templateScope": "global",
+        "x": 1020,
+        "y": 1080,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0b473dfec1cfd027",
+        "type": "ui_text",
+        "z": "f6f2187d.f17ca8",
+        "group": "c6f2b8e06d076ad7",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "x": 530,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "ddf3d06b0fbd73d3",
+        "type": "link in",
+        "z": "f6f2187d.f17ca8",
+        "name": "UIEvent_IN1",
+        "links": [
+            "2850b62cc14b4535"
+        ],
+        "x": 165,
+        "y": 1020,
+        "wires": [
+            [
+                "0b473dfec1cfd027"
+            ]
+        ]
+    },
+    {
+        "id": "a6fb7df6a6277710",
+        "type": "comment",
+        "z": "f6f2187d.f17ca8",
+        "name": "Telegram Interface Event (Node Red UI)",
+        "info": "",
+        "x": 630,
+        "y": 980,
+        "wires": []
+    },
+    {
+        "id": "5df92419408cbd76",
+        "type": "comment",
+        "z": "f6f2187d.f17ca8",
+        "name": "if the mqtt response is a data of MultiProtocol",
+        "info": "",
+        "x": 250,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "ed7544f22469cceb",
+        "type": "comment",
+        "z": "f6f2187d.f17ca8",
+        "name": "if the mqtt response is a data of MonoProtocol Zigbee",
+        "info": "",
+        "x": 220,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "3d8c001487514438",
+        "type": "comment",
+        "z": "f6f2187d.f17ca8",
+        "name": "if the mqtt response is a data of MonoProtocol LoRa",
+        "info": "",
+        "x": 230,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "feafba3d8ff3110b",
+        "type": "comment",
+        "z": "f6f2187d.f17ca8",
+        "name": "Set chatID, MQTT Request & payload",
+        "info": "",
+        "x": 890,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "c07c6a06745b7723",
+        "type": "comment",
+        "z": "f6f2187d.f17ca8",
+        "name": "Set chatID, MQTT Request & payload",
+        "info": "",
+        "x": 910,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "e4cb061006d11910",
+        "type": "comment",
+        "z": "f6f2187d.f17ca8",
+        "name": "Set chatID, MQTT Request & payload",
+        "info": "",
+        "x": 910,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "7b161cc97cef7317",
+        "type": "comment",
+        "z": "f6f2187d.f17ca8",
+        "name": "CSS Template",
+        "info": "",
+        "x": 970,
+        "y": 1040,
+        "wires": []
+    },
+    {
+        "id": "8b7b82937f92f791",
+        "type": "ui_chart",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "group": "4065d330a32f948d",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "label": "Temperature",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "empty",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "50",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 550,
+        "y": 60,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c3cc5edbb118d09a",
+        "type": "switch",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "cont",
+                "v": "Temperature",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "Humidity",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 250,
+        "y": 80,
+        "wires": [
+            [
+                "fd8a72dbffe481fe"
+            ],
+            [
+                "7362f3f65a0dd42d"
+            ]
+        ]
+    },
+    {
+        "id": "fd8a72dbffe481fe",
+        "type": "function",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "func": "str1 = msg.payload.replace ( /[^\\d.]/g, '' );\n\nmsg.payload = str1\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 400,
+        "y": 60,
+        "wires": [
+            [
+                "8b7b82937f92f791"
+            ]
+        ]
+    },
+    {
+        "id": "7362f3f65a0dd42d",
+        "type": "function",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "func": "mystr = String(msg.payload);\nliststr = mystr.split('/');\nstr1 = liststr[0].replace( /[^\\d.]/g, '' );\n\nmsg.payload = str1;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 400,
+        "y": 100,
+        "wires": [
+            [
+                "f3fd58695dcaacb6"
+            ]
+        ]
+    },
+    {
+        "id": "f3fd58695dcaacb6",
+        "type": "ui_chart",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "group": "4065d330a32f948d",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "label": "Humidity",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "empty",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "100",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 540,
+        "y": 100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0e5fdf7c40b06019",
+        "type": "ui_chart",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "group": "d8b2cabaa0f08e03",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "label": "Elegoo Sensor A0",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "empty",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "4100",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 570,
+        "y": 380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f2e2f4d3f47592f6",
+        "type": "ui_chart",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "group": "44ae4315e53743c3",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "label": "Temperature",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "empty",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "50",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 550,
+        "y": 700,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "df2c277235234609",
+        "type": "ui_chart",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "group": "44ae4315e53743c3",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "label": "Brightness",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "empty",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "4100",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 550,
+        "y": 740,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "dc11085aecad3e20",
+        "type": "function",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "func": "str1 = msg.payload.replace ( /[^\\d.]/g, '' );\n\nmsg.payload = str1\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 400,
+        "y": 380,
+        "wires": [
+            [
+                "0e5fdf7c40b06019"
+            ]
+        ]
+    },
+    {
+        "id": "21aa10fd1e1ee4b9",
+        "type": "switch",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "cont",
+                "v": "Temperature",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "Brightness",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 250,
+        "y": 720,
+        "wires": [
+            [
+                "22014d78c9352021"
+            ],
+            [
+                "255d40c22a59ecdc"
+            ]
+        ]
+    },
+    {
+        "id": "22014d78c9352021",
+        "type": "function",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "func": "str1 = msg.payload.replace ( /[^\\d.]/g, '' );\n\nmsg.payload = str1\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 400,
+        "y": 700,
+        "wires": [
+            [
+                "f2e2f4d3f47592f6"
+            ]
+        ]
+    },
+    {
+        "id": "255d40c22a59ecdc",
+        "type": "function",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "func": "str1 = msg.payload.replace ( /[^\\d.]/g, '' );\n\nmsg.payload = str1\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 400,
+        "y": 740,
+        "wires": [
+            [
+                "df2c277235234609"
+            ]
+        ]
+    }
+]
