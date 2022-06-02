@@ -9,9 +9,9 @@ Dans ce répertoire se trouve tous les codes exemples des différentes **Cartes 
 
 ### Contenu :
 Le répertoire [Codes ESP32](https://github.com/DavideDiVenti/TFE-3AU-2022/tree/master/Codes%20ESP32) contient :
-* Un dossier Actuators & Sensors Devices incluant des codes exemples propre à chaque périphérique (excepté ceux de communications)
-* Un dossier Communicarions Modules comportant des codes exemples propre à chaque modules de communications (LoRa, ZigBee, SigFox, CAN)
-* un dossier TP Industry 4.0 contenant les différents codes d'un exemple de processus Industrie 4.0
+* Un dossier [Actuators & Sensors Devices](https://github.com/DavideDiVenti/TFE-3AU-2022/tree/master/Codes%20ESP32/Actuators%20%26%20Sensors%20Devices) incluant des codes exemples propre à chaque périphérique (excepté ceux de communications)
+* Un dossier [Communicarions Modules](https://github.com/DavideDiVenti/TFE-3AU-2022/tree/master/Codes%20ESP32/Communications%20Modules) comportant des codes exemples propre à chaque modules de communications (LoRa, ZigBee, SigFox, CAN)
+* Un dossier [TP Industry 4.0](https://github.com/DavideDiVenti/TFE-3AU-2022/tree/master/Codes%20ESP32/TP%20Industry%204.0) contenant les différents codes d'un exemple de processus Industrie 4.0 avec les différentes **Cartes de Prototypage Industrie 4.0**
 
 ## Le répertoire *Documents*
 
