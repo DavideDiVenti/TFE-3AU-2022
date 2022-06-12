@@ -35,3 +35,15 @@ Le répertoire [Documents](https://github.com/DavideDiVenti/TFE-3AU-2022/tree/ma
 * Un dossier [ESP32 Pinout](https://github.com/DavideDiVenti/TFE-3AU-2022/tree/master/Documents/ESP32%20Pinout) comportant tous les brochages de chaque PCB en plus de quelques restrictions propre à chaque pin.
 * Un fichier [TFE-DI VENTI-DAVIDE](https://github.com/DavideDiVenti/TFE-3AU-2022/blob/master/Documents/TFE-DI%20VENTI-DAVIDE.pdf) correspondant au rapport du travail de fin d'études pour quelques autres éventuelles informations précises.
 
+## YouTube
+En plus du fait que nous suivons une formation d'Automaticien, dans ce cursus nous serons également mené à réaliser des vidéos. Ci-dessous se trouvent celles correspondantes au TFE.
+
+### Vue 3D de l'Industry 4.0 Prototyping Multi Protocol Board :
+Entièrement montée sous Fusion 360, cette vidéo a pour but de peprésenter de façon animée le PCB Multi Protocole.
+
+[![Industry 4.0 Prototyping Board](https://yt-embed.herokuapp.com/embed?v=wpZFFHDfnJo)](https://www.youtube.com/watch?v=wpZFFHDfnJo "Industry 4.0 Prototyping Board")
+
+### Présentation de l'avant-jury du TFE :
+Avant la défense du TFE, les étudiants de 3ème sont menés à réaliser une vidéo. Sous forme de présentation du TFE, cette vidéo sera lue par les différents membres du jury.
+
+[![Présentation : Industry 4.0 Prototyping Boards](https://yt-embed.herokuapp.com/embed?v=T3gv6wTp_2M)](https://www.youtube.com/watch?v=T3gv6wTp_2M "Présentation : Industry 4.0 Prototyping Boards")
