@@ -7,7 +7,7 @@
 #include <LoRa.h>
 
 //Configutation frd PIN : 3AU board LoRa
-#define ss 5
+#define ss 0
 #define rst 14
 #define dio0 2
 int counter = 0;
@@ -18,7 +18,7 @@ String LoRaMessageReceived;
 //MQTT
 const char* ssid = "Davide";
 const char* password = "12345678";
-const char* mqtt_server = "192.168.137.211";
+const char* mqtt_server = "192.168.137.172";
 WiFiClient espClient;
 PubSubClient client(espClient);
 long lastMsg;
@@ -131,12 +131,12 @@ void callback(char* topic, byte* message, unsigned int length) {
     Serial.print("Changing output to ");
     if(payload == "on"){
       Serial.println("on");
-      digitalWrite(LED2, HIGH);
+      digitalWrite(LED2, LOW);
       client.publish("MultiProtocol/RequestExecuted", "*LED2* : ON"); //accusé de réception
     }
     else if(payload == "off"){
       Serial.println("off");
-      digitalWrite(LED2, LOW);
+      digitalWrite(LED2, HIGH);
       client.publish("MultiProtocol/RequestExecuted", "*LED2* : OFF"); //accusé de réception
     }
     else if(payload == "temp"){
